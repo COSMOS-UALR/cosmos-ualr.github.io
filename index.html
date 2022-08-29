@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/d3-mitch-tree.css">
+        <link rel="stylesheet" href="assets/css/d3-mitch-tree-theme-default.css">
+     
+
+        <script src="assets/js/d3-mitch-tree.js"></script>
+
+
+        <title>Sidebar sub menus</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                                                <a href="#" class="nav__logo">Cosmos</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="ellipse-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Network Cordinator</span>
+                        </a>
+                        <div  class="nav__link collapse">
+                            <ion-icon name="ellipse-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Actors</span>
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">* Information Producers</a>
+                                <a href="#" class="collapse__sublink">* Information Consumers</a>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="ellipse-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Social Dynamics</span>
+                        </a>
+                        <div class="nav__link collapse">
+                            <ion-icon name="ellipse-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Tactics</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                
+                                <a href="#" class="collapse__sublink">* Content</a>
+                                <a href="#" class="collapse__sublink">* Network</a>
+                                <a href="#" class="collapse__sublink">* Platform Affordance</a>
+                            </ul>
+                        </div>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="analytics-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Visualization Tree</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Log Out</span>
+                </a> -->
+            </nav>
+        </div>
+
+        <h2>Multimedia Online Information Environment Characterization Framework</h2>
+
+        <p class="card-description">In recent years, a number of frameworks have been proposed to communicate and characterize disinformation campaigns and incidents of information manipulation and interference online, while some have been incorporated into the existing institutional frameworks by government agencies and industry. Some of the proposed frameworks aimed at systematic documentation and communication of reported campaigns across institutions, while others focused on the characterization of behaviors, tactics, techniques, and procedures (TTPs) employed by threat actors. Also, a few frameworks characterize the narratives and rhetorical characteristics of influence in general. The existing frameworks offer great value in overall understanding and timely detection of influence operations. However, almost all of the proposed frameworks cannot address the emerging developments in the modern information environment and pose a number of limitations to the characterization of high-risk hostile influence operations. In this brief, we emphasize the use of multi-media environments, including video, audio, real-time broadcasting, and real-time audio chat environments for online influence operations as a high-priority area of focus for an additional computational and analytical framework. All in all, we posit that the expansion of the current set of frameworks with a multi-modal approach toward such social media platforms would improve the</p>
+       
+         <!-- div that will contain the tree -->
+         <div id="my_tree" style="width:800px;height:500px;border:1px solid rgb(241, 228, 228);"></div>
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+
+        
+    </body>
+</html>

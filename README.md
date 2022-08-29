@@ -1,5 +1,1 @@
-# Sidebar menu submenus
-
-## Unete a Youtube ↙️ 
-[Bedimcode](https://www.youtube.com/c/Bedimcode)
-# cosmos-ualr.github.io
+# Multimedia Online Information Environment Characterization Framework

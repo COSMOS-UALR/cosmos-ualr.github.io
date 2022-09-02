@@ -3,13 +3,16 @@
 
 /*===== VARIABLES CSS =====*/
 :root{
-  --nav-width: 92px;
+  --nav-width: 100px;
 
   /*===== Colores =====*/
   --first-color: #0C5DF4;
-  --bg-color: #0b0b0b;
+  --bg-color: #f5f6fa;
   --sub-color: #B6CEFC;
-  --white-color: #FFF;
+  --white-color: #000;
+  --black: #000;
+  --nav--link:#818181;
+
   
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -85,25 +88,21 @@ a{
 }
 
 .nav__link{
-  display: grid;
-  grid-template-columns: max-content max-content;
-  align-items: center;
-  column-gap: .75rem;
-  padding: .75rem;
-  color: var(--white-color);
-  border-radius: .5rem;
-  margin-bottom: 1rem;
+  color: var(--nav--link);
   transition: .3s;
+  text-align: left;
   cursor: pointer;
 }
-.nav__link:hover{
-  background-color: var(--first-color);
-}
+
 .nav__icon{
   font-size: 1.25rem;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: -18px;
 }
 .nav__name{
   font-size: var(--small-font-size);
+  padding-right: 26px;
 }
 
 /*Expander menu*/
@@ -113,32 +112,46 @@ a{
 
 /*Add padding body*/
 .body-pd{
-  padding: 2rem 0 0 16rem;
+  padding: 2rem 0 16rem 16rem;
 }
 
 /*Active links menu*/
 .active{
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+}
+
+.collapse__link:hover{
+  color: #000;
+}
+
+.nav__name:hover{
+  color: #000;
 }
 
 /*===== COLLAPSE =====*/
-.collapse{
+/* .collapse{
   grid-template-columns: 30px max-content 1fr;
-}
+} */
 .collapse__link{
-  justify-self: flex-end;
   transition: .5s;
+  text-align: left;
+  margin-left: 100px;
+  padding-top: -18px;
+  font-size: 20px;
 }
 .collapse__menu{
   display: none;
   padding: .75rem 2.25rem;
 }
 .collapse__sublink{
-  color: var(--sub-color);
+  /* color: var(--sub-color); */
   font-size: var(--small-font-size);
+  padding: auto;
+  color: var(--nav--link);
 }
+
 .collapse__sublink:hover{
-  color: var(--white-color);
+  color: var(--black);
 }
 
 /*Show collapse*/
@@ -154,6 +167,38 @@ a{
 .card-description {
   margin-bottom: 0.875rem;
   margin-right: 0.5rem;
-  font-weight: 400;
+  font-weight: 100;
   color: #76838f;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #000;
 }

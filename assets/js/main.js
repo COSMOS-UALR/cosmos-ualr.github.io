@@ -346,11 +346,46 @@ var data = {
 //   });
 // }
 
-var sideBar = document.getElementsByClassName("sidebarCollapse");
-sideBar.addEventListener("click", function() {
-  $sideBar.toggleClass('active');
+// var sideBar = document.getElementsByClassName("sidebarCollapse");
+// sideBar.addEventListener("click", function() {
+//   sideBar.toggleClass('active');
 
-});
+// });
+
+// var collapseButton = document.getElementsByClassName("collapsible_button");
+// var i;
+
+// for (i = 0; i < collapseButton.length; i++) {
+//   collapseButton[i].addEventListener("click", function() {
+//     var content = this.nextElementSibling;
+//     this.classList.toggle("collapsible_button--active");
+
+//     if(this.classList.toggle("collapsible_button--active")) {
+//       content.style.maxHeight = content.scrollHeight + 'px';
+//     } else {
+//       content.style.maxHeight = 0;
+//     }
+
+    
+//   });
+// }
+
+document.querySelectorAll('.collapsible_button').forEach( collapseButton => {
+  collapseButton.addEventListener("click", function() {
+    const content = collapseButton.nextElementSibling;
+    collapseButton.classList.toggle("collapsible_button--active");
+
+    if(content.style.maxHeight) {
+     // content.style.maxHeight = content.scrollHeight + 'px';
+     content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    }    
+  });
+}
+
+)
+
 
 // $(document).ready(function () {
 //   $('#sidebarCollapse').on('click', function () {

@@ -13,7 +13,6 @@
 
            <!-- Bootstrap CSS CDN -->
            <title>Characterizing Multimedia-rich OIE specific Tactics and Impact Assessment</title>
-
            <!-- Bootstrap CSS CDN -->
            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
            <!-- Our Custom CSS -->
@@ -34,7 +33,7 @@
 
             <ul class="list-unstyled components">
                 <p>Overview</p>
-                <li class="active">
+                <li >
                     
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Review of Existing Frameworks</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
@@ -69,6 +68,8 @@
                 </li>
             </ul>
 
+            <div class="solid-line"></div>
+
             <!-- <ul class="list-unstyled CTAs">
                 <li>
                     <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
@@ -84,16 +85,27 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
                     <button type="button" id="sidebarCollapse" class="btn btn-dark">
                         <i class="fas fa-align-justify"></i>
                         <span>MOICEF</span>
                     </button>
+                </div>
             </nav>
 
-            <h5>Characterizing Multimedia-rich OIE specific Tactics and Impact Assessment</h5>
-            <p>In recent years, several frameworks have been proposed to communicate and characterize disinformation campaigns and incidents of information manipulation and interference online, while some have been incorporated into the existing institutional frameworks by government agencies and industry. Some of the proposed frameworks aimed at systematic documentation and communication of reported campaigns across institutions, while others focused on the characterization of behaviors, tactics, techniques, and procedures (TTPs) employed by threat actors. Also, a few frameworks characterize the narrative and rhetorical characteristics of influence in general. The existing frameworks offer great value in overall understanding and timely detection of influence operations. However, almost all the proposed frameworks cannot address the emerging developments in the modern information environment and pose a number of limitations to the characterization of high-risk hostile influence operations. In this study, we emphasize the use of multimedia environments, including video, audio, real-time broadcasting, and real-time audio chat environments for online influence operations as a high-priority area of focus for an additional computational and analytical framework. All in all, we posit that the expansion of the current set of frameworks with a multi-modal approach toward such social media platforms would improve the efforts to monitor, track, detect, and mitigate the emerging threats in the information environment.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="collapsible">
+                <!-- keyboard_arrow_down -->
+                <!-- <label><h5>Characterizing Multimedia-rich OIE specific Tactics and Impact Assessment</h5></label> -->
+                    <button type="button" class="collapsible_button">
+                        <h5>Multimedia Platforms and Multimodal Characterization
+                        </h5>
+                    </button>
+                            
+                <div class="collapsible-content">
+                    <p>In recent years, several frameworks have been proposed to communicate and characterize disinformation campaigns and incidents of information manipulation and interference online, while some have been incorporated into the existing institutional frameworks by government agencies and industry. Some of the proposed frameworks aimed at systematic documentation and communication of reported campaigns across institutions, while others focused on the characterization of behaviors, tactics, techniques, and procedures (TTPs) employed by threat actors. Also, a few frameworks characterize the narrative and rhetorical characteristics of influence in general. The existing frameworks offer great value in overall understanding and timely detection of influence operations. However, almost all the proposed frameworks cannot address the emerging developments in the modern information environment and pose a number of limitations to the characterization of high-risk hostile influence operations. In this study, we emphasize the use of multimedia environments, including video, audio, real-time broadcasting, and real-time audio chat environments for online influence operations as a high-priority area of focus for an additional computational and analytical framework. All in all, we posit that the expansion of the current set of frameworks with a multi-modal approach toward such social media platforms would improve the efforts to monitor, track, detect, and mitigate the emerging threats in the information environment.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+            </div>
 
            
             <div class="line"></div>
@@ -105,9 +117,13 @@
 
             <h3>Lorem Ipsum Dolor</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div>
+                <img src="assets/images/block.png" alt=”an artist's rendition of a black hole in space”>
 
-                    <!-- div that will contain the tree -->
-         <div id="my_tree" style="width: 100%;height:1000px;border:1px solid rgb(241, 228, 228);"></div>
+
+            </div>
+             <!-- div that will contain the tree -->
+            <div id="my_tree" style="width: 100%;height:1000px;border:1px solid rgb(241, 228, 228);"></div>
          
          
         </div>
@@ -131,6 +147,15 @@
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
+            });
+        });
+        $(function () {
+            $('.panel-collapse').on('show.bs.collapse', function () {
+                $(this).siblings('.panel-heading').addClass('active');
+            });
+ 
+            $('.panel-collapse').on('hide.bs.collapse', function () {
+                $(this).siblings('.panel-heading').removeClass('active');
             });
         });
     </script>

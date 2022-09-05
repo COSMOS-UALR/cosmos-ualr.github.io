@@ -1,43 +1,43 @@
-/*===== EXPANDER MENU  =====*/ 
-const showMenu = (toggleId, navbarId, bodyId)=>{
-  const toggle = document.getElementById(toggleId),
-  navbar = document.getElementById(navbarId),
-  bodypadding = document.getElementById(bodyId)
-  navbar.classList.toggle('expander')
-  bodypadding.classList.toggle('body-pd')
+// /*===== EXPANDER MENU  =====*/ 
+// const showMenu = (toggleId, navbarId, bodyId)=>{
+//   const toggle = document.getElementById(toggleId),
+//   navbar = document.getElementById(navbarId),
+//   bodypadding = document.getElementById(bodyId)
+//   navbar.classList.toggle('expander')
+//   bodypadding.classList.toggle('body-pd')
 
-  if(toggle && navbar){
-    toggle.addEventListener('click', ()=>{
-      navbar.classList.toggle('expander')
-      bodypadding.classList.toggle('body-pd')
+//   if(toggle && navbar){
+//     toggle.addEventListener('click', ()=>{
+//       navbar.classList.toggle('expander')
+//       bodypadding.classList.toggle('body-pd')
 
-    })
-  }
-}
-showMenu('nav-toggle','navbar','body-pd')
+//     })
+//   }
+// }
+// showMenu('nav-toggle','navbar','body-pd')
 
-/*===== LINK ACTIVE  =====*/ 
-const linkColor = document.querySelectorAll('.nav__link')
-function colorLink(){
-  linkColor.forEach(l=> l.classList.remove('active'))
-  this.classList.add('active')
-}
-linkColor.forEach(l=> l.addEventListener('click', colorLink))
+// /*===== LINK ACTIVE  =====*/ 
+// const linkColor = document.querySelectorAll('.nav__link')
+// function colorLink(){
+//   linkColor.forEach(l=> l.classList.remove('active'))
+//   this.classList.add('active')
+// }
+// linkColor.forEach(l=> l.addEventListener('click', colorLink))
 
 
-/*===== COLLAPSE MENU  =====*/ 
-const linkCollapse = document.getElementsByClassName('collapse__link')
-var i
+// /*===== COLLAPSE MENU  =====*/ 
+// const linkCollapse = document.getElementsByClassName('collapse__link')
+// var i
 
-for(i=0;i<linkCollapse.length;i++){
-  linkCollapse[i].addEventListener('click', function(){
-    const collapseMenu = this.nextElementSibling
-    collapseMenu.classList.toggle('showCollapse')
+// for(i=0;i<linkCollapse.length;i++){
+//   linkCollapse[i].addEventListener('click', function(){
+//     const collapseMenu = this.nextElementSibling
+//     collapseMenu.classList.toggle('showCollapse')
 
-    const rotate = collapseMenu.previousElementSibling
-    rotate.classList.toggle('rotate')
-  })
-}
+//     const rotate = collapseMenu.previousElementSibling
+//     rotate.classList.toggle('rotate')
+//   })
+// }
 
 
 var data = {
@@ -331,17 +331,29 @@ var data = {
   })
   .initialize();
 
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
+// var dropdown = document.getElementsByClassName("dropdown-btn");
+// var i;
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
+// for (i = 0; i < dropdown.length; i++) {
+//   dropdown[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var dropdownContent = this.nextElementSibling;
+//     if (dropdownContent.style.display === "block") {
+//       dropdownContent.style.display = "none";
+//     } else {
+//       dropdownContent.style.display = "block";
+//     }
+//   });
+// }
+
+var sideBar = document.getElementsByClassName("sidebarCollapse");
+sideBar.addEventListener("click", function() {
+  $sideBar.toggleClass('active');
+
+});
+
+// $(document).ready(function () {
+//   $('#sidebarCollapse').on('click', function () {
+//       $('#sidebar').toggleClass('active');
+//   });
+// });

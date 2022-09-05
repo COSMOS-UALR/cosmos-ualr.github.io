@@ -2,203 +2,184 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 /*===== VARIABLES CSS =====*/
+/*
+    DEMO STYLE
+*/
 :root{
-  --nav-width: 100px;
-
-  /*===== Colores =====*/
-  --first-color: #0C5DF4;
-  --bg-color: #f5f6fa;
-  --sub-color: #B6CEFC;
-  --white-color: #000;
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --nav--link:#fafafa;
   --black: #000;
-  --nav--link:#818181;
+  --sidebar-width: 300px;
+  --sidebar-width-margin: -300px;
 
-  
-  /*===== Fuente y tipografia =====*/
-  --body-font: 'Poppins', sans-serif;
-  --normal-font-size: 1rem;
-  --small-font-size: .875rem;
-  
-  /*===== z index =====*/
-  --z-fixed: 100;
 }
 
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
 
-/*===== BASE =====*/
-*,::before,::after{
-  box-sizing: border-box;
+p {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #212529;
 }
-body{
-  position: relative;
-  margin: 0;
-  padding: 2rem 0 0 6.75rem;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  transition: .5s;
-}
-h1{
-  margin: 0;
-}
-ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-a{
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
-/*===== l NAV =====*/
-.l-navbar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: var(--nav-width);
-  height: 100vh;
-  background-color: var(--bg-color);
-  color: var(--white-color);
-  padding: 1.5rem 1.5rem 2rem;
-  transition: .5s;
-  z-index: var(--z-fixed);
-}
-
-/*===== NAV =====*/
-.nav{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-}
-.nav__brand{
-  display: grid;
-  grid-template-columns: max-content max-content;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-.nav__toggle{
-  font-size: 1.25rem;
-  padding: .75rem;
-  cursor: pointer;
-}
-.nav__logo{
-  color: var(--white-color);
-  font-weight: 600;
-}
-
-.nav__link{
-  color: var(--nav--link);
-  transition: .3s;
-  text-align: left;
-  cursor: pointer;
-}
-
-.nav__icon{
-  font-size: 1.25rem;
-  text-align: left;
-  padding-left: 100px;
-  padding-top: -18px;
-}
-.nav__name{
-  font-size: var(--small-font-size);
-  padding-right: 26px;
-}
-
-/*Expander menu*/
-.expander{
-  width: calc(var(--nav-width) + 9.25rem);
-}
-
-/*Add padding body*/
-.body-pd{
-  padding: 2rem 0 16rem 16rem;
-}
-
-/*Active links menu*/
-.active{
-  /* background-color: var(--first-color); */
-}
-
-.collapse__link:hover{
-  color: #000;
-}
-
-.nav__name:hover{
-  color: #000;
-}
-
-/*===== COLLAPSE =====*/
-/* .collapse{
-  grid-template-columns: 30px max-content 1fr;
-} */
-.collapse__link{
-  transition: .5s;
-  text-align: left;
-  margin-left: 100px;
-  padding-top: -18px;
-  font-size: 20px;
-}
-.collapse__menu{
-  display: none;
-  padding: .75rem 2.25rem;
-}
-.collapse__sublink{
-  /* color: var(--sub-color); */
-  font-size: var(--small-font-size);
-  padding: auto;
-  color: var(--nav--link);
-}
-
-.collapse__sublink:hover{
-  color: var(--black);
-}
-
-/*Show collapse*/
-.showCollapse{
-  display: block;
-}
-
-/*Rotate icon*/
-.rotate{
-  transform: rotate(180deg);
-}
-
-.card-description {
-  margin-bottom: 0.875rem;
-  margin-right: 0.5rem;
-  font-weight: 100;
-  color: #76838f;
-}
-
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
-
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-
-/* Style the sidenav links and the dropdown button */
-.sidenav a, .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
   border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #000;
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+  SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: var(--sidebar-width);
+  max-width: var(--sidebar-width);
+  background: var(--nav--link);
+  color: var(--black);
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  margin-left: var(--sidebar-width-margin);
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  /* background: #6d7fcc; */
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  /* border-bottom: 1px solid #47748b; */
+}
+
+#sidebar ul p {
+  color: var(--black);
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a {
+  color: var(--black);
+  /* background: #6d7fcc; */
+}
+
+#sidebar ul li a:hover {
+  color: #6d7fcc;
+  /* background: #6d7fcc; */
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: var(--black);
+  background: #ADD8E6;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #ADD8E6;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #7386D5;
+}
+
+a.article:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
+}
+
+/* ---------------------------------------------------
+  CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+  MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #sidebar {
+      margin-left: -250px;
+  }
+  #sidebar.active {
+      margin-left: 0;
+  }
+  #sidebarCollapse span {
+      display: none;
+  }
 }

@@ -1,181 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <!-- ===== CSS ===== -->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/d3-mitch-tree.css">
         <link rel="stylesheet" href="assets/css/d3-mitch-tree-theme-default.css">
-           <!-- Bootstrap CSS CDN -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-               <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-
         <script src="assets/js/d3-mitch-tree.js"></script>
-     
 
-        <title>MOIECF</title>
-    </head>
-    <body id="body-pd">
-        <div class="l-navbar" id="navbar">
-            <nav class="nav">
-                <div>
-                    <div class="nav__brand">
-                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
-                                                <a href="#" class="nav__logo">Cosmos</a>
-                    </div>
-                    
-                    <div class="nav__list">
-                        <div  class="nav__link collapse">
-                            <span class="nav__name">Actors</span>
-                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
-                            <ul class="collapse__menu">
-                                <a href="#" class="collapse__sublink">Information Producers</a>
-                                <a href="#" class="collapse__sublink">Information Consumers</a>
-                            </ul>
-                        </div>
-                                            <div  class="nav__link collapse">
-                            <span class="nav__name">Actors</span>
-                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
-                            <ul class="collapse__menu">
-                                <a href="#" class="collapse__sublink">Information Producers</a>
-                                <a href="#" class="collapse__sublink">Information Consumers</a>
-                            </ul>
-                        </div>
+           <!-- Bootstrap CSS CDN -->
+           <title>Characterizing Multimedia-rich OIE specific Tactics and Impact Assessment</title>
 
-                        <button class="dropdown-btn">Dropdown 
-                            <i class="fa fa-caret-down"></i>
-                          </button>
-                          <div class="dropdown-container">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                          </div>
-                          <button class="dropdown-btn">Dropdown2 
-                            <i class="fa fa-caret-down"></i>
-                          </button>
-                          <div class="dropdown-container">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                          </div>
-                    </div>
-  
-                </div>
-
-                <!-- <a href="#" class="nav__link">
-                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
-                    <span class="nav__name">Log Out</span>
-                </a> -->
-            </nav>
-        </div>
-
-        <h2>Multimedia Online Information Environment Characterization Framework</h2>
-
-        <p>In recent years, several frameworks have been proposed to communicate 
-            and characterize disinformation campaigns and incidents of information 
-            manipulation and interference online, while some have been incorporated 
-            into the existing institutional frameworks by government agencies and 
-            industry. Some of the proposed frameworks aimed at systematic 
-            documentation and communication of reported campaigns across 
-            institutions, while others focused on the characterization of behaviors, 
-            tactics, techniques, and procedures (TTPs) employed by threat actors. Also, a
-            few frameworks characterize the narrative and rhetorical characteristics of 
-            influence in general. The existing frameworks offer great value in overall 
-            understanding and timely detection of influence operations. However, almost
-            all the proposed frameworks cannot address the emerging developments in 
-            the modern information environment and pose a number of limitations to the
-            characterization of high-risk hostile influence operations. In this study, we 
-            emphasize the use of multimedia environments, including video, audio, real-
-            time broadcasting, and real-time audio chat environments for online 
-            influence operations as a high-priority area of focus for an additional 
-            computational and analytical framework. All in all, we posit that the 
-            expansion of the current set of frameworks with a multi-modal approach 
-            toward such social media platforms would improve the efforts to monitor, 
-            track, detect, and mitigate the emerging threats in the information 
-            environment.
-
-            <p>
-                The state-of-the-art characterization frameworks have several limitations as 
-                mentioned below.
-            </p>
-           
-            <p>
-                1. Most critical limitation of existing characterization frameworks stems from
-                the fact that they do not consider the dynamic characterization of 
-                information actors (producers and consumers) and the information 
-                campaign process. To develop a rich understanding of the OIE, all three 
-                elements are critical, i.e., tactics, information actors, and the campaign’s 
-                dynamics. Our characterization framework considers the information actor
-                and the campaign dynamics to develop effective countermeasures.
-            </p> 
-            <p>
-            2. Existing characterization frameworks exclude comprehensive evaluation 
-            of non-textual data, platform affordances, and metadata such as audio, 
-            video, engagement statistics, recommendation information, and dynamic 
-            network information. Further, time series data analysis needs to be 
-            considered for a near real time evaluation. Our characterization 
-            framework considers all the above-mentioned data elements as well as 
-            time series information.
-        </p>
-        <p>3. There is not much focus on impact assessment in existing frameworks. 
-            These frameworks mainly focus on defining TTPs and identifying/detecting
-            these and not on impact assessment. In our approach, we address these 
-            gaps. Further, our approaches have rigorous theoretical and 
-            mathematical grounding.
-
-        </p>
-        <p>
-            
-            We are developing a characterization framework for multimedia-rich social 
-            platforms. The framework addresses the gaps in the current frameworks 
-            (discussed above) and presents novel ways of characterization of 
-            multimedia-rich social platform-based behaviors. The framework also 
-            provides analytical tools to not only identify such behaviors but also measure
-            their impact.
-            Our characterization framework considers five approaches: </p>
-            <p> &#8226; Characterizing multimedia OIE tactics and impact assessment;</p>
-            <p> &#8226; Characterizing dynamics of social/campaign process for better 
-                characterization of campaign phases;</p>
-            <p>&#8226; Characterizing information actors (producers and consumers) 
-                dynamically; </p>
-            <p>  &#8226; Characterizing network coordination structures; and</p>
-
-            <p>&#8226; Characterizing mobs and their dynamics.</p>
-
-           
-            
-          
-            
-            These characterization approaches afford understanding of multimedia OIE 
-            from a multidimensional and dynamic perspective to develop 
-            countermeasures/ intervention strategies and further measure response 
-            effectiveness.
-            These approaches have rigorous mathematical and theoretical grounding for 
-            better explainability, interpretability, and transparency. Figure below 
-            illustrates our characterization approaches.</p>
+           <!-- Bootstrap CSS CDN -->
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+           <!-- Our Custom CSS -->
+           <link rel="stylesheet" href="style.css">
        
-         <!-- div that will contain the tree -->
-         <div id="my_tree" style="width:800px;height:500px;border:1px solid rgb(241, 228, 228);"></div>
+           <!-- Font Awesome JS -->
+           <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+           <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+       </head>
 
-         <img src="/assets/images/block.png" alt="" width="460" height="345">
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Cosmos</h3>
+            </div>
 
+            <ul class="list-unstyled components">
+                <p>Overview</p>
+                <li class="active">
+                    
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Review of Existing Frameworks</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Frameworks for Actor Motivation, Documentation, and Inter-Institutional Communication</a>
+                        </li>
+                        <li>
+                            <a href="#"> Frameworks Focusing on Process, TTPs, Behaviors</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Multimedia platforms</a>
+                </li>
+                <li>
+                    <a href="#platformSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Multimedia Characterization of Incidents</a>
+                    <ul class="collapse list-unstyled" id="platformSubmenu">
+                        <li>
+                            <a href="#">Videos Signals</a>
+                        </li>
+                        <li>
+                            <a href="#">Audio Signals</a>
+                        </li>
+                        <li>
+                            <a href="#">Text Signals</a>
+                        </li>
+                    </ul>
+                </li>
+                </li>
+                <li>
+                    <a href="#">Taxonomy of Data and Analytics</a>
+                </li>
+            </ul>
 
-        <!-- ===== IONICONS ===== -->
-        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+            <!-- <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul> -->
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
+                        <i class="fas fa-align-justify"></i>
+                        <span>MOICEF</span>
+                    </button>
+            </nav>
+
+            <h5>Characterizing Multimedia-rich OIE specific Tactics and Impact Assessment</h5>
+            <p>In recent years, several frameworks have been proposed to communicate and characterize disinformation campaigns and incidents of information manipulation and interference online, while some have been incorporated into the existing institutional frameworks by government agencies and industry. Some of the proposed frameworks aimed at systematic documentation and communication of reported campaigns across institutions, while others focused on the characterization of behaviors, tactics, techniques, and procedures (TTPs) employed by threat actors. Also, a few frameworks characterize the narrative and rhetorical characteristics of influence in general. The existing frameworks offer great value in overall understanding and timely detection of influence operations. However, almost all the proposed frameworks cannot address the emerging developments in the modern information environment and pose a number of limitations to the characterization of high-risk hostile influence operations. In this study, we emphasize the use of multimedia environments, including video, audio, real-time broadcasting, and real-time audio chat environments for online influence operations as a high-priority area of focus for an additional computational and analytical framework. All in all, we posit that the expansion of the current set of frameworks with a multi-modal approach toward such social media platforms would improve the efforts to monitor, track, detect, and mitigate the emerging threats in the information environment.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+           
+            <div class="line"></div>
+
+            <h5>The Missing Element: Multimedia Platforms and Multimodal Characterization</h5>
+            <p>Each analytical and conceptual framework mentioned above offers value to the assessment of online influence operations. However, the relevant literature and policy-relevant toolkit still lack a framework that would, in combination with some of the existing frameworks, address the emerging characteristics of multimedia platforms and cross-platform dynamics in the contemporary information environment. Most of the existing analytical workflows rely on text-based analysis of threat actors and information manipulation incidents, with limited, time-consuming, and mostly qualitative assessments of the artifacts, content, or actors present in multimedia environments. In addition, most of the current knowledge regarding the online influence operations relies on the given analytical workflows and text-based computational tools, which in turn pose significant limitations to the overarching understanding of how current hostile operations are conducted, or which artifacts they use. Furthermore, existing frameworks focus on platforms that are primarily user-centric (e.g., Twitter, Facebook, WhatsApp). Emerging multimedia based platforms (e.g., YouTube, TikTok, Parler, Clubhouse) are primarily content-centric. TTPs of influence operations are shaped by the platform architectures, and what is available as manipulative tools. By mostly relying on the text-based tools that are mostly applied to data originating from a certain list of social media platforms such as Twitter, the overwhelming majority of the current frameworks often fall short of offering a comprehensive view of how multiple modalities of signals from video, audio, text, network, user/content-engagement, and platform affordances are combined..</p>
+
+            <div class="line"></div>
+
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <!-- div that will contain the tree -->
+         <div id="my_tree" style="width: 100%;height:1000px;border:1px solid rgb(241, 228, 228);"></div>
+         
+         
+        </div>
+        
+        
+    </div>
+ 
+
+   
 
         
-        <!-- ===== MAIN JS ===== -->
-        <script src="assets/js/main.js"></script>
 
-         <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-    </body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+</body>
+
 </html>

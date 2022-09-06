@@ -313,23 +313,7 @@ var data = {
   ]
 };
 
-  // Create a new d3.mitchTree object and set the data source
-  var treePlugin = new d3.mitchTree.boxedTree()
-  .setData(data) // the data variable comes from simple_tree.js
-  .setElement(document.getElementById("my_tree"))
-  .setIdAccessor(function(data) {
-      return data.id;
-  })
-  .setChildrenAccessor(function(data) {
-      return data.children;
-  })
-  .setBodyDisplayTextAccessor(function(data) {
-      return data.value;
-  })
-  .setTitleDisplayTextAccessor(function(data) {
-      return data.title;
-  })
-  .initialize();
+
 
 // var dropdown = document.getElementsByClassName("dropdown-btn");
 // var i;
@@ -385,6 +369,24 @@ document.querySelectorAll('.collapsible_button').forEach( collapseButton => {
 }
 
 )
+
+  // Create a new d3.mitchTree object and set the data source
+  var treePlugin = new d3.mitchTree.boxedTree()
+  .setData(data) // the data variable comes from simple_tree.js
+  .setElement(document.getElementById("my_tree"))
+  .setIdAccessor(function(data) {
+      return data.id;
+  })
+  .setChildrenAccessor(function(data) {
+      return data.children;
+  })
+  .setBodyDisplayTextAccessor(function(data) {
+      return data.value;
+  })
+  .setTitleDisplayTextAccessor(function(data) {
+      return data.title;
+  })
+  .initialize();
 
 
 // $(document).ready(function () {

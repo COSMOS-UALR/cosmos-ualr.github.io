@@ -241,3 +241,23 @@ To do : Collapsible
   max-height: 0;
   transition: max-height 0.2s;
 }
+
+/*-----------------------
+ Image 
+-------------------------*/
+
+#flex-fit-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+/* (B) IMAGES */
+#flex-fit-gallery img {
+  /* (B1) DIMENSIONS */
+  width: 50%; /* 2 items per row, 100% / 2 = 50% */
+  height: auto;
+  max-height: 300px;
+ 
+  /* (B2) RESIZE BEHAVIOR */
+  object-fit: cover; /* none | cover | contain | scale-down | fill */
+}

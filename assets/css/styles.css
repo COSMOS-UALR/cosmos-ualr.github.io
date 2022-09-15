@@ -261,3 +261,11 @@ To do : Collapsible
   /* (B2) RESIZE BEHAVIOR */
   object-fit: cover; /* none | cover | contain | scale-down | fill */
 }
+
+#aspect-img {
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio = 9 / 16 = 0.5625 */
+  background: url("alpaca.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto
+}

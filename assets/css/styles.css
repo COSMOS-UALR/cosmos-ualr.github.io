@@ -269,3 +269,11 @@ To do : Collapsible
   background-repeat: no-repeat;
   background-size: 100% auto
 }
+
+.collapsible_button h5{
+  color:#72bcd4;
+}
+  
+#sectionHeader h5{
+  color:#72bcd4;
+}

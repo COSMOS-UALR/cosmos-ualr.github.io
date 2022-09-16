@@ -144,7 +144,7 @@
                 </ul>
                
                 <!--Characterizing Information Actors and Consumers Dynamically -->
-                <a href="#characterizingInformationActorsandConsumersDynamically" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Characterizing Information Actors and Consumers Dynamically</a>
+                <a href="#characterizingInformationActorsandConsumersDynamically" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Characterizing Information Actors & Consumers Dynamically</a>
                 <ul class="collapse list-unstyled" id="characterizingInformationActorsandConsumersDynamically">
                     <li>
                         <li>
@@ -176,11 +176,11 @@
         <!-- Page Content  -->
         <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
+                    <h5>Multimedia Online Information Environment Characterization Framework</h5>
                     <button type="button" id="sidebarCollapse" class="btn btn-dark">
                         <i class="fas fa-align-justify"></i>
-                        <span>MOICEF</span>
                     </button>
                 </div>
             </nav>
@@ -194,116 +194,300 @@
                 </p>
             </div>
 
-            <div class="collapsible" id="high-level-diagram">
+            <div class="solid-line"></div>
+            <div class="collapsible" id="video-signal">
                 <button type="button" class="collapsible_button">
                     <h5>Dynamic Characterization of Information Producers
                     </h5>
                 </button>
                         
-            <div class="collapsible-content">
-                <p>We have developed a conceptual framework and computational method for determining when technology-equipped crowd networks act together under connective action. Establishing this theoretical framework will help develop predictive models to monitor an emerging connective action event and determine the type of measures needed to support or counter the action. We propose to evaluate the extent that actors leverage connective action techniques to orchestrate information campaigns.</p>
-                <p>The computational methods used in social network analysis have opened the way for new approaches to be used to understand the psychological and social processes that occur when users take part in online social movements or digital activism. These techniques can provide insights to the underlying mechanisms that drive the phenomenon we see during connective 
-                    action. The personal action framing in connective action offers in-depth insights about the role of identity in online movements such as protests, demonstrations, and mis/dis information campaigns (e.g., leaderless vs collective).  Individual micro-actions, such as likes, mentions, and retweets, can contribute to collective action by making social information visible to personal networks, thereby creating circumstances for conditional cooperation (Spann, et al., 2020). The methods developed in this research offer rigorous new complements to traditional qualitative methods that address some of the limitations or critiques of the qualitative survey or manual annotation approaches, such as it being time-consuming and labor-intensive to extract insights. The use of computational methods to study the social science theories presented here can help researchers identify the grievances, processes, and social dynamics emerging from this type of cyber-collective movement that often serve as catalysts for such events (Agarwal et al., 2012; 2014). Opportunities for computational analysis as a complement to existing survey methods offer in-depth insights about the role of identity in online movements. The use of computational methods to study connective action is an understudied area that can also provide valuable insights into the behavior and emergence of these movements.
-                    <br><br>
-                    We have developed a socio-computational framework to assess the formation of cyber-collective communities, analyze interactions between actors and identify how they influence their communities. The primary goal of this framework is to demonstrate how computational methods may be used to detect and analyze connective action properties of collective identity, network organization, and mobilization (see Figure 2). This is done by using natural language processing to show how collective identities converge in social networks over time, using social network analysis to demonstrate how structural cohesiveness and organization of connective action networks emerges over time, and how ordinary differential equations can be used to determine when mobilization for an information campaign has reached critical mass. This theoretical framework is guided by the relevant social science theories of social and collective identity, resource mobilization through affordances and interdependence (see Figure 3), diffusions of innovations, and collective action. This framework will evolve over time by adding relevant theories and constructs. Further, computational methodologies to operationalize the theoretical constructs will evolve as well by adding novel ways of assessing nuanced cyber behaviors.  
-                </p>
-                <div id="aspect-img">
-                    <img src="../assets/images/propertiesOfConnectiveAction.png" alt="commenter-diagram", width="80%">
-                    <br><b>Figure 1. </b>Commenter Flash Mob Behavior (left) and Regular Commenter Behavior (right).
-                </div>
-                <div id="aspect-img">
-                    <img src="../assets/images/relationshipBtwOSN.png" alt="commenter-diagram", width="80%">
-                    <br><b>Figure 1. </b>Commenter Flash Mob Behavior (left) and Regular Commenter Behavior (right).
+                <div class="collapsible-content">
+                    <p>We leverage the diffusion of innovations (DOI) theory to show how users adopt into social 
+                        media campaigns. The psychological and social behaviors that are understood from the DOI 
+                        model can be applied to social networks to categorize social media users into adoption categories
+                        and to use diffusion curves to determine if a campaign has reached its tipping point (see Figure 
+                        2). We demonstrate this application of DOI theory to social networks in (Spann, et al., 2022), 
+                        where we show how the spread of misinformation follows a trajectory pattern similar to the 
+                        adoption of new technologies. The framework in this proposal considers these two approaches to
+                        understanding the diffusion of information in a connective action campaign. This view can be 
+                        used to help shape collective identity and understand whether a collective response is a function 
+                        of aggregation effects or specific interaction conditions within a group. This research also 
+                        consider how online social networks are used for the purpose of social media campaigns. The 
+                        sociotechnical theories of affordance and interdependence amongst users are applied to understand how individual user participation impacts the rate of adoption into an information campaign. The interactions between users in a connective action campaign can provide insights to help determine how future actors will react as information propagates through the network. Leonardi distinguished between these types of actions by labeling them as individualized, shared, and collective affordances (Leonardi, 2013). The interdependencies created between users creates a production function that allows us to measure the diffusion of information in a cyber campaign. The initial observations from our analysis support a mathematical characterization for connective action campaigns and show how affordances can be used to identify the inter-user message strategy (Spann, et al., 2020).          
+                        <br>
+                    </p>
+                    <br>
+                    <img src="../assets/images/doi_modelofCampaignCycleTrajectory.png" alt="commenter-diagram", width="80%">
+                    <br><br><b>Figure 2. </b>Diffusion of Innovation (DOI) model and stages for user adoption (left). Model of s-
+                    curve campaign cycle trajectory (right).
+                    <p><br>
+                        We leverage the diffusion of innovations (DOI) theory to examine the trajectory of the overall 
+                        campaign as it evolves. The second derivative test is then applied to identify changes in the slope
+                        of the s-curve. The second derivative test is a method in multivariable calculus used to determine
+                        if a critical point of a function is a local minimum, maximum or saddle point. This empirical 
+                        approach provides an initial quantitative method to find the points at which the slope of the 
+                        curves shifts from the accelerating stage to the point at which the campaign reaches maximum 
+                        diffusion or critical mass, and when the slope flattens out or enters the decelerating stage. Since 
+                        DOI theory has been applied to various disciplines, a key benefit to this approach is that the s-
+                        curves are platform independent. Understanding these processes provides a foundation for 
+                        predicting when an information campaign reaches critical mass.
+                    </p>
+                    <p>
+                        In fully adopted information campaigns such as Figure 3, we observe an s-shaped phenomenon. 
+                        Applying the concept of adoption stages from DOI, we see there is an initial growth stage, 
+                        accelerating stage, and then a decelerating stage. The COVID-19 misinformation campaign 
+                        #BillGatesVirus (Figure 3, left) provides a classic example of the s-curve feature showing the 
+                        full life cycle of how the campaign started slowly, experienced rapid growth, and then slows 
+                        toward the end of the campaign. Another COVID-19 misinformation campaign, viz., 
+                        #NoVaccineForMe (Figure 3, right) depicts multiple/cascaded s-shaped adoption, suggesting 
+                        continuous monitoring of misinformation campaigns for future action. We use DOI theory as a 
+                        guiding principle and apply the concept to suggest new categories for information actors that 
+                        align with the cascaded adoption phenomenon, viz., initiators, amplifiers, and sustainers.
+                    </p>
+                    <br>
+                    <img src="../assets/images/fullAdoptionCycleForBillGate.png" alt="commenter-diagram", width="80%">
+                    <br><br><b>Figure 3. </b>Information Actor Characterization based on s-Shape Connective Action Process 
+                    Dynamics. Full Adoption Cycle for #BillGatesVirus (left) and Cascaded Adoption Cycle for 
+                    #NoVaccineForMe (right).
                 </div>
             </div>
 
-            <div>
-
             <div class="solid-line"></div>
-
-            <div class="collapsible" id="high-level-diagram">
+            <div class="collapsible" id="video-signal">
                 <button type="button" class="collapsible_button">
-                    <h5>Collective Identity 
+                    <h5>Dynamic Characterization of Information Consumers
                     </h5>
                 </button>
                         
                 <div class="collapsible-content">
+                    <p>Applying a mathematical model to understand the trends and dynamics of the spread of 
+                        misinformation and opposing perspectives on online social networks can help develop 
+                        techniques to quickly identify and mitigate the spread. The approach presented here attempts to 
+                        understand the influence that the propagation of misinformation on social media has on the 
+                        beliefs and behaviors of information consumers and characterize them based on their actions. 
+                        two most common epidemiological models, viz., SIR and SEIZ are evaluated.  <br>
+                    </p>
+                    <br>
+                    <p><br>
+                        SIR Model: The SIR model is an oft-used fundamental epidemiological model. The SIR model 
+                        partitions members of a population into three compartments: Susceptible (S), Infected (I), and 
+                        Recovered (R) (Figure 4). In the SIR model, people in the Infected compartment are those 
+                        determined to have contracted a specific infection or disease and can spread the infection to other
+                        members of the population. The Susceptible compartment includes members of the population 
+                        considered at risk of contracting the infection from the Infected members. The Recovered 
+                        compartment consists of members immune from contracting the infection or who have died from
+                        the infection. By allocating new definitions to these terms, the SIR model can be adapted to 
+                        include the spread of information on online social network (OSN), treating "information" as the 
+                        "infection", and OSN users as the population. In this revised SIR model, the use of a specific 
+                        hashtag or a video can be considered as the information and the "infection". Therefore, a user 
+                        who has posted using the specific hashtag or posted a specific video can be considered Infected. 
+                        Similarly, a user can be considered Susceptible if they follow an infected user but have not yet 
+                        posted using that specific hashtag themselves. Finally, a user can be considered Recovered if 
+                        they have not made additional posts containing the specific hashtag or the video within a certain 
+                        defined time frame.
+                        <br><br>
+                        SEIZ Model: Basic epidemiological models such as SIR are limited by accounting for only one 
+                        possible path from the Susceptible compartment, which is to enter the Infected compartment. In 
+                        the case of information as the infection, however, users in the Susceptible compartment have 
+                        additional paths possible for transition. They can transition to the Infected compartment by 
+                        deciding to post the information using the specific hashtag or the video. They can also decide not
+                        to post but continue to follow the infected user. They therefore move into an Exposed 
+                        compartment, meaning that they are still at risk. In addition, some users may need time to decide 
+                        if they believe the information and should spread the hashtags or videos related to them. Users in
+                        the Susceptible compartment can indicate that they are decidedly skeptical of the information. 
+                        Finally, some users in the Susceptible compartment show no indication of having been exposed 
+                        to the information. None of these additional possibilities are considered via the basic SIR 
+                        epidemiological model but are accounted for in the more robust SEIZ model. We applied both 
+                        the SIR and SEIZ model to our data to illustrate the comparative ability to model the propagation
+                        of information on OSN.
+                        <br><br>
+                        When applying the SEIZ epidemiological model to Twitter data with the objective of analyzing 
+                        the propagation of information, the composition of the compartments (Figure 5) can be 
+                        considered as follows: Infected (I) consists of the users who have posted a video. Susceptible (S) 
+                        consists of users who follow the Infected users. Exposed (E) consists of users exposed to the 
+                        video (or a hashtag-specific tweet) and, after some time, also commented on the video. Skeptic 
+                        (Z) consists of users who have been exposed to the video but have decided not to engage
+                    </p>
+                    <br>
+                    <img src="../assets/images/sirModel.png" alt="commenter-diagram", width="20%">
                     <p>
-                        Studies on computer-mediated communication shows that collective identity is strengthened by the anonymity and immersion that occurs within online groups as demonstrated by a model known as Social Identity Model of Deindividuation Effects (SIDE; Postmes, Spears and Lea, 1998; Spears and Postmes, 2015; Odag et al, 2019, p. 281). This amplification of social identity, as mediated by digital interactions, can both heighten polarization and facilitate deviant behavior (Douglas & McGarty, 2002, as cited in Odag, et al, 2019, p. 281). As group members become increasingly aligned with “group norms and expectations” their own attributes are suppressed and individuals “behave according to how they believe other people from the same social category will behave” (Chan, 2010, p. 1315). One aspect of this research probes the reliability of using NLP methods to measure the collective identity that is formed from these deindividuation effects using an LDA unsupervised distributional model to find the topics of discussion in online communities. We will apply principal component analysis (PCA) of the topic distributions to measure the inter-topic similarity between the topics being discussed within the online communities of participants in cyber protests. This NLP method demonstrates how we use textual content to measure collective identity as it emerges. Our experiments have demonstrated that as online protests or information campaigns peak, the distance between measured topics begins to overlap as their behaviors and discussion topics become more cohesive (Spann, et al., 2022b). 
+                        <b>&ensp;Figure 3. </b>SIR Model
+                    </p>
+                    <br>
+                    <img src="../assets/images/seizModel.png" alt="commenter-diagram", width="20%">
+                    <p>
+                        <b>&ensp;Figure 4. </b>SEIZ Model
+                    </p>
+                    <br>
+                    <img src="../assets/images/sirAntilock.png" alt="commenter-diagram", width="30%">
+                    <p>
+                        <b>&ensp;Figure 5. </b>SIR model fit for Anti-lockdown narrative (error = 26.4%).
+                    </p>
+                    <br>
+                    <img src="../assets/images/seizAntilock.png" alt="commenter-diagram", width="30%">
+                    <p>
+                        <b>&ensp;Figure 6. </b>SEIZ model fit for Anti-lockdown narrative (error = 6.9%).
+                    </p>
+                    <p>
+                        We applied SIR and SEIZ epidemiological models to various datasets with COVID-19 context 
+                        (e.g., face masks, lockdowns, vaccine, 5G, Bill Gates). Figures 7 and 7 show comparative 
+                        analysis of SIR and SEIZ models for diffusion of the anti-lockdown narrative. The error reported
+                        for SIR and SEIZ models is 26.4% and 6.9%, respectively. In this analysis, we applied 
+                        epidemiological models to a relatively small dataset (Maleki, et al., 2021) and our findings 
+                        showed that the SEIZ model can efficiently fit the spreaders of some misinformation and 
+                        legitimate narratives more than the other epidemiological models. For example, in cases where 
+                        the campaign cycle adheres to the s-shape adoption characteristics more strictly (e.g., 
+                        #Nofacemask and #Wearafacemask), the error for the fitted ‘I (Infected)’ compartment is 
+                        relatively low compared to the datasets that do not conform strictly to the s-shaped adoption 
+                        characteristics (e.g., #lockdownkills) (Maleki et al., 2021; 2021a).
                     </p>
                 </div>
             </div>
-            <div class="collapsible" id="high-level-diagram">
-                <button type="button" class="collapsible_button">
-                    <h5>Network Organization
-                    </h5>
-                </button>
-                        
-                <div class="collapsible-content">
-                    <p>
-                        The second concept in examining connective action analyzes the structural components of an information campaign network. The organizational components are identified by applying Girvan-Newman modularity and community detection on the network, while also evaluating centrality methods. Our experiments for the #stopthesteal information campaign have demonstrated that the structure of the network also becomes more cohesive as measured by Girvan-Newman modularity, as an event emerges (Spann, et al., 2022b). To measure the organizational component of the connective action network, we examine how the information is spread between nodes and communities, i.e., communication network.  If the organizational logic follows a pattern of sequential diffusion and not mutual exchanges, the information flow should be rather one-directional than reciprocal (Theocharis et al., 2017). Organizational nature of a communication network can be measured by calculating the degree centrality of the network structures, where we measure the in-degree, out-degree, and betweenness centrality for each node and then aggregate for the entire network. This approach can be used to characterize the affordance-interdependence properties discussed in Figure 3. Communities with a low degree centralization suggest a more decentralized communication than hierarchical or organizational (Spann, et al., 2020). Our experiments for the #stopthesteal information campaign have demonstrated that the structure of the network also becomes more cohesive as measured by Girvan-Newman modularity, as an event emerges (Spann, et al., 2022b) as shown in Figure 4.                    </p>
-                        <div id="aspect-img">
-                            <img src="../assets/images/modularityOverTime.png" alt="modularityOverTime-diagram", width="80%">
-                            <br><b>Figure 4. </b>Modularity of the #stopthesteal network over time.
-                        </div>
-                        <p>Decreasing modularity during November 3 – 10, 2020 indicates an emergence of cohesiveness and collectivity in the network. In other words, the network can be imagined as ‘coming together’. Lower values of modularity indicate a more cohesive network. Higher values indicate a more fractured network.</p>    
-                </div>
-            </div>
 
-            <div class="collapsible" id="high-level-diagram">
-                <button type="button" class="collapsible_button">
-                    <h5> Mobilization
-                    </h5>
-                </button>
-                        
-                <div class="collapsible-content">
-                    <p>
-                        The mobilization aspect leverages the diffusion of innovations theory (DOI) to show how users adopt into social media campaigns. The psychological and social behaviors that are understood from the DOI model can be applied to social networks to categorize social media users into adoption categories and to use diffusion curves to determine if a campaign has reached its tipping point (see Figure 5). We demonstrate this application of DOI theory to social networks in (Spann, et al., 2022a), where we show how the spread of misinformation follows a trajectory pattern similar to the adoption of new technologies. The framework presented here considers these two approaches to understanding the diffusion of information in a connective action campaign. This view can be used to help shape collective identity and understand whether a collective response is a function of aggregation effects or specific interaction conditions within a group. This research also considers how online social networks are used for the purpose of social media campaigns. The sociotechnical theories of affordance and interdependence amongst users are applied to understand how individual user participation impacts the rate of adoption into an information campaign. The interactions between users in a connective action campaign can provide insights to help determine how future actors will react as information propagates through the network. Leonardi distinguished between these types of actions by labeling them as individualized, shared, and collective affordances (Leonardi, 2013). The interdependencies created between users (see Figure 6) creates a production function that allows us to measure the diffusion of information in a cyber campaign. The initial observations from our analysis support a mathematical characterization for connective action campaigns and show how affordances can be used to identify the inter-user message strategy (Spann, et al., 2020).     
-                    </p>
-                    <div id="aspect-img">
-                        <img src="../assets/images/breakout-of-ss-curve.png" alt="breakout-of-ss-curve-diagram", width="80%">
-                    </div>
-                </div>
-            </div>
             <div class="solid-line"></div>
-            <div class="collapsible" id="high-level-diagram">
+            <div class="collapsible" id="toxicitypropagation">
                 <button type="button" class="collapsible_button">
-                    <h5> s-Function Characterizatics
+                    <h5>Dynamic Characterization of Information Actors based on Toxicity 
+                        Propagation
                     </h5>
                 </button>
                         
                 <div class="collapsible-content">
+                    <p>Discourse toxicity has a profound impact on community dynamics. Extreme toxic levels may 
+                        splinter communities (DiCicco et al., 2022). Adversarial information actors adopt this tactic to 
+                        reshape communities of interest. Toxicity’s impact on community dynamics can be explained 
+                        using the contagion phenomenon of toxicity (Obadimu at al., 2019; 2019a; 2021) (Maleki et al., 
+                        (2022) on YouTube and Twitter. Information actors engage with toxic discourse in different and 
+                        dynamic capacities. Due to contagious property of toxicity, epidemiological modeling could help
+                        in information actor characterization. 
+                        
+                        <br><br>
+                        We evaluated five different forms of toxicity (i.e., obscene, threat, insult, identity attack, and sexually explicit) between the comments posted on pro and anti-NATO channels on YouTube (Obadimu et al. 2019). The analysis demonstrated that comments on pro-NATO channels are less toxic than those on the anti-NATO channels. We analyzed toxic ideas related to COVID-19 and users who spread them on YouTube (Obadimu et al., 2021). We showed the concepts of “contagion” and “polarization” on a social network. We further showed how the contagion of toxicity in a social network can be contained in order to improve the overall health of a social network (Obadimu et al., 2019a). These simulations rely on the removal of highly toxic nodes in the network that serve as “bridges” or “information brokers” within the network that perpetuate the contagion and polarization effect. For example, in the network depicted in Figure 8, each node represents a user, and the edge represents a video in common. An initial set of 2,453 users commented on the same video with at least one other user. Several commenters served as “gatekeepers” by forming bridges between the smaller clusters enabling them to spread toxic information quickly. Gatekeepers can select, channel, shape, manipulate, and delete information from the network solely based on their position. If any of these commenters are removed, the network structure will disintegrate.
+                        <br>
+                        <img src="../assets/images/commenterNetwork.png" alt="commenter-diagram", width="80%">
+                        <br><br><b>Figure 8. </b>Co-commenter shared video network. Colors denote toxicity scores from lowest 0 
+                        (blue) to highest 1 (red).
+
+                        <br>
+                        Figure 9 shows a commenter-reply network for the same dataset. This was created as a directed 
+                        graph to demonstrate the flow of conversation and understand how toxicity spreads from nodes 
+                        to nodes and becomes contagious. Each edge represents a reply relation between a commenter 
+                        and the replier with the arrow pointing towards the replier. One can observe a high degree of 
+                        segregation/polarization among commenters based on toxicity. The red or blue colored nodes are
+                        collocated most of the time suggesting that the replies to toxic comments had a similar level of 
+                        toxicity. In other words, highly toxic commenters are more likely to form groups with 
+                        commenters with high toxicity and low toxic commenters tend to cluster with commenters who 
+                        are less toxic. Even though the network components are quite isolated from one another, various 
+                        connections existed within these individual components. Figures 8 and 9 both show the 
+                        polarization effect based on toxicity.
+
+                        <br>
+                        <img src="../assets/images/commenter-reply-network.png" alt="commenter-diagram", width="80%">
+                        <br><br><b>Figure 9. </b>Commenter-reply directed network clusters depicting segregation among commenters based on toxicity. Colors denote toxicity scores from lowest 0 (blue) to highest 1 (red).
+                        <br><br>
+                        We applied a mathematical epidemiological theory-based model to explain how toxicity 
+                        propagates on online social networks (OSNs). The model considers three categories of 
+                        information actors based on their role in toxicity propagation, viz., Susceptible (S), Toxic (T), 
+                        Recovered (R), and again Susceptible (S), or STRS model (pronounced as “stars”). The STRS 
+                        model was evaluated on COVID-19 narratives to characterize information actors based on 
+                        toxicity propagation. We collected data for different narratives that best cover a broad range of 
+                        topics related to COVID-19 during the entirety of 2020. These topics included three main topics: 
+                        lockdowns, masks, and vaccines. The narratives were chosen after a qualitative OSN analysis 
+                        found frequent and common narratives during the pandemic. Our dataset contains original posts, 
+                        as well as shares, and replies. There was no language restriction as the toxicity computation 
+                        includes non-English languages. The list of identified narratives and their respective number of 
+                        posts is reported in Table 1. Table 1 also includes the error metric relative to our experiments, 
+                        discussed in more detail next.
+
+                        <br><br>
+                        The cumulative sums of posts for different datasets are shown in Figure 10. 
+                        When viewed on a cumulative scale, we can see that the overall posting 
+                        frequency identified as having the potential for propagating toxicity 
+                        regarding masks is more prolific than for those regarding lockdowns and 
+                        vaccines. Interestingly, however, there are two considerable spikes within 
+                        the lockdown dataset: late May 2020, and late October 2020. Of further note,
+                        an s-shaped curve can be seen within the cumulative toxicity spread for both
+                        masks and vaccines. Within the cumulative toxicity spread related to 
+                        lockdown, however, there are two apparent s-shaped curves. These 
+                        consecutive s-curves depict a cascaded spread of toxicity demonstrating a 
+                        transition of information actors from susceptible to toxic to recovered to 
+                        susceptible again. Our STRS model is able to capture this dynamic 
+                        characterization of information actors.
+
+                        <br><br>
+                        We analyzed the toxicity scores for each of these components (S, T, R, S) for 
+                        each post in our four datasets (shown in Table 1). The average overall 
+                        toxicity scores for anti-mask, anti-vaccines, anti-lockdown, and COVID 
+                        disbelief are 0.61, 0.51, 0.55, and 0.42, respectively. The average toxicity 
+                        score for the combined datasets is 0.52. These scores confirm that our 
+                        collected datasets contain toxic discourse. Content defined as “toxic” is 
+                        considered to be a unit of text input assigned a toxicity score of 0.5 or 
+                        greater. Figure 11 shows the percentage of toxic posts within the toxicity, 
+                        obscene, and insult categories for each dataset. One of the interesting 
+                        findings is that 99.9 percent of the posts related to lockdown have a score 
+                        greater than 0.5 for obscene, which may indicate a high level of anger or 
+                        otherwise negative sentiment from users regarding the topic of mandatory 
+                        lockdowns due to COVID-19.
+
+                        <br><br>
+                        We then fit the number of toxic people (users who posted toxic content) in 
+                        each 24-hour time interval as the Toxic (T) compartment in the STRS model. 
+                        The STRS model concepts are covered in more depth in (Obadimu et al., 
+                        2021).
+   </p>
+                    <br>
+                    <br>
+                    <img src="../assets/images/sirModel.png" alt="commenter-diagram", width="20%">
                     <p>
-                        We leverage the diffusion of innovations theory to examine the trajectory of the overall campaign as it evolves. The second derivative test is then applied to identify changes in the slope of the s-curve. The second derivative test is a method in multivariable calculus used to determine if a critical point of a function is a local minimum, maximum, or saddle point. This empirical approach provides an initial quantitative method to find the points at which the slope of the curves shifts from the accelerating stage to the point at which the campaign reaches maximum diffusion or critical mass, and when the slope flattens out or enters the decelerating stage. Since DOI theory has been applied to various disciplines, a key benefit to this approach is that the s-curves are platform independent. Understanding these processes provides a foundation for predicting when an information campaign reaches critical mass.                   
+                        <b>&ensp;Figure 3. </b>SIR Model
+                    </p>
+                    <br>
+                    <img src="../assets/images/seizModel.png" alt="commenter-diagram", width="20%">
+                    <p>
+                        <b>&ensp;Figure 4. </b>SEIZ Model
+                    </p>
+                    <br>
+                    <img src="../assets/images/sirAntilock.png" alt="commenter-diagram", width="30%">
+                    <p>
+                        <b>&ensp;Figure 5. </b>SIR model fit for Anti-lockdown narrative (error = 26.4%).
+                    </p>
+                    <br>
+                    <img src="../assets/images/seizAntilock.png" alt="commenter-diagram", width="30%">
+                    <p>
+                        <b>&ensp;Figure 6. </b>SEIZ model fit for Anti-lockdown narrative (error = 6.9%).
+                    </p>
+                    <p>
+                       
+                        <br><br>
+                        The key findings of this study include:
+                        <br>&#x2022;Based on the error metrics calculated for the four datasets used in our experiments (summarized in Table 2), the STRS model accurately predicts the Toxic (Infected) compartment when applied to the spread of toxicity on OSNs. 
+                        <br>&#x2022;The trends observed in the extracted datasets could be divided into three broad categories: (a) s-shaped curves (Figure 12), (b) cascaded s-shaped curves, and (c) non s-shaped curve (Figure 13). 
+                        <br>&#x2022;
+                        <br><br>Although the overall performance of the STRS model was promising and satisfactory to make predictions in the case of s-shaped diffusion and in cases of straight (or close to straight) lines, fitting cascaded s-shaped curves produced the highest level of error. Modeling of cascaded s-shaped diffusion requires further examination.
+                        <br><br>According to our analysis, three out of our four toxic datasets with toxicity scores of 0.5 or greater were estimated by the STRS model with the lowest possible error. These three datasets are: COVID-19, vaccines, and masks. The lockdown dataset presents a higher error of fit due to its cascaded s-shaped diffusion trend.
+                        out of our four toxic datasets with toxicity 
+                            scores of 0.5 or greater were estimated by the STRS model with the lowest 
+                            possible error. These three datasets are: COVID-19, vaccines, and masks. 
+                            The lockdown dataset presents a higher error of fit due to its cascaded s-
+                            shaped diffusion trend.
+
+                        <br><br>
+                        Table 2 shows the data elements and analytical methodology taxonomy needed to operationalize 
+                            the framework presented above to characterize information actors dynamically on multimedia 
+                            rich OIE. A content taxonomy of the various information modalities is included here.
+                        <br><br>
+                        <b>Table 2</b> Data Elements and Analytical Methodologies needed to Operationalize the Connective 
+                        Action Framework to Characterize Dynamic Social Campaign Process on Multimedia rich OIE.
+
+                        <br><br>
+                        <img src="../assets/images/tableConnectActionFramework.png" alt="commenter-diagram", width="80%">
+
+                        <br><br>
+                        A comprehensive characterization of the rich data environment of multimedia OIE and characterization of multimodal multimethod analytical methodologies for multimedia OIE are depicted in Figures 14 and 15, respectively.
                     </p>
                 </div>
             </div>
-            <div class="solid-line"></div>
 
-            <div class="collapsible" id="high-level-diagram">
-                <button type="button" class="collapsible_button">
-                    <h5> Detection and Impact Assessment (Operationalization)
-                    </h5>
-                </button>
-                        
-                <div class="collapsible-content">
-                    <p>
-                        To evaluate this framework, we will use our existing data repositories (and collect new) such as COVID-19 anti-lockdown protests on Twitter for Operation Gridlock and the armed protests that resulted in the shutdown of the Michigan State Capitol, protests from the Stop the Steal rallies resulting from the 2020 presidential election, and misinformation campaigns propagating COVID-19 misinformation. The Michigan protest data contained 16,383 tweets from 9,985 users mentioning #MichiganProtest, #MiLeg, #Endthelockdown, and #LetMiPeopleGo hashtags were collected over a 50-day period from April 01, 2020 to May 20, 2020 (see Figure 7). Twitter data was collected for the #stopthesteal protests from January 1, 2020 through January 31, 2021 resulting in 838,395 tweets (see Figure 4). Nine COVID-19 misinformation and public discourse hashtags are being used in our experiments and include a broad range of topics related to COVID-19 such as lockdowns, facemasks, and vaccines (see Figure 8). The topics were chosen around highly debated issues that may have some call to action consistent with connective action campaigns.                    </p>
-                        <div id="aspect-img">
-                            <img src="../assets/images/timeline-lockdown.png" alt="modularityOverTime-diagram", width="80%">
-                        </div>
-                        <div id="aspect-img">
-                            <img src="../assets/images/affordance-interdependence-relationship.png" alt="modularityOverTime-diagram", width="80%">
-                        </div>
-                        <p>
-                            As misinformation campaigns evolve, actors are utilizing multiple platforms to evolve their TTPs for recruitment and mobilization into collective action campaigns. We’re seeing a near real-time shift in behaviors of the online social media information environment. Due to recent shutdowns of many accounts, fringe users are leaving popular platforms for other more secure/encrypted, less restrictive or less moderated, and decentralized modes of communication. As a result, we have to keep up with this changing environment and adapt our theoretical framework, computational models, data collection, and analysis strategies to stay relevant. Two notable changes to the current environment are the platforms and techniques being used for disseminating information and orchestrating protests. We are currently examining other platforms such as YouTube, Parler, and Reddit to further validate our connective action methods. (McNerney et al., 2022) Table 1 shows the data elements and analytical methodology taxonomy needed to operationalize the connective action-based framework to characterize dynamic social campaign process on multimedia rich OIE. A content taxonomy of the various information modalities is included
-                        </p>
-                        <p>
-                            We offer an approach to understanding collective action theory by providing the scientific community with a new way to evaluate the concepts associated with connective action while generating results that are interpretable and useful across disciplines. Our research is grounded in the theoretical behavioral theories that are catalysts for social movements, while the computational techniques presented here provide novel, scalable, and extensible methods to understand collective identity, network organization, and mobilization in connective action movements. There have been limited computational studies examining the sociological and organizational concepts of connective action. A major impediment to quickly understanding the behaviors that drive these cyber-crowd/movements is that they often require interviews and surveys of the participants to extract detailed information about who is at the center of organizing these groups, what identities the group associates itself with, and how or why people were drawn in to participate. Computational analysis as a complement to existing survey methods offers in-depth insights about the role of identity in online movements. Some of these studies have taken an analytical approach to focus on individual properties of connective action and how it differs from collective action, but there is no research that brings all the concepts together under a computational social science approach. The research and framework presented here provide a strong foundation for this important area of emerging socio-technical behaviors. The case studies presented here have highlighted the social science and behavioral theories involved in understanding social identity and affordances in social networks, interdependence, and resource mobilization through critical mass theory. This work presents a theoretical framework for operationalizing connective action theory using computational methods grounded in social network analysis and provides. This interdisciplinary approach bridges social science theories with computational science techniques to advance the computational social science discipline. In the context of connective action, these computational methods offer a new way to quickly identify behaviors and attributes shared within a social movement, which provides an important step in advancing the understanding of the emergence of collective action on digital platforms.
-                        </p>
-
-                    </div>
-            </div>
 
             <div class="solid-line"></div>
             <div class="collapsible" id="high-level-diagram">
@@ -314,22 +498,21 @@
                         
                 <div class="collapsible-content">
                     <p>
-                        Agarwal, N., Lim, M., and Wigand, R. 2012. “Raising and Rising Voices in Social Media: A Novel Methodological Approach in Studying Cyber-Collective Movements”. & Information Systems Engineering (BISE) Special Issue on IS and Culture, Dorothy Leidner (Ed.), WIRTSCHAFTSINFORMATIK. 2012. DOI: 10.1007/s12599-012-0210-z (English); 10.1007/s11576-012-0317-3 (German translation)
-                        <br> Agarwal, N., Lim, M., and Wigand, R. 2014. Online Collective Action: Dynamics of the Crowd in Social Media, Lecture Notes in Social Network, Springer, July 2014. ISBN: 3709113393.
-                        <br> Chan, M., 2010. The impact of email on collective action: a field application of the SIDE model. New Media & Society, 12(8), pp.1313-1330
-                        <br> Leonardi, P. M. 2013. “When Does Technology Use Enable Network Change in Organizations? A Comparative Study of Feature Use and Shared Affordances,” MIS Quarterly (37:3), pp.749-775.
-                        <br> McNerney, H., Spann, B., Mead, E., Kready, J., Marcoux, T., and Agarwal, N. 2022. Assessing the influence and reach of digital activity amongst far-right actors: A comparative evaluation of mainstream and ‘free speech’ social media platforms. For(e)Dialogue, Vol 4, Issue 1, 2022. DOI: 10.21428/e3990ae6.60c47409.
-                        <br> Odağ, Ö., Leiser, A. and Boehnke, K., 2019. Reviewing the Role of the Internet in Radicalization Processes. Journal of Deradicalization, [online] 0(21), pp.261-300.
-                        <br> Postmes, T., Spears, R. and Lea, M., 1998. Breaching or Building Social Boundaries? Communication Research, 25(6), pp.689-715.
-                        <br> Rogers, E. M. (1962). Diffusion of innovations. New York: Free Press of Glencoe.
-                        <br> Spann, B., Agarwal, N., Johnson, S., and Mead, E., 2020. Modeling Protester Orchestration through Connective Action: A COVID-19 Lockdown Protest Case Study. 2020 International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction, and Behavior Representation in Modeling and Simulation (SBP-BRiMS 2020), October 18-21, 2020, Washington D.C.
-                        <br> Spann, B., Mead, E., Maleki, M., Williams, T., and Agarwal, A., 2022a. Applying Diffusion of Innovations Theory to Social Networks to Understand the Stages of Adoption in Connective Action Campaigns. Online Social Networks and Media, Elsevier. Vol. 28, March 2022. DOI: 10.1016/j.osnem.2022.100201.
-                        <br> Spann, B. Johnson, O., and Agarwal, N., 2022b. (A Computational Framework for Analyzing Social Behavior in Online Connective Action: A COVID-19 Lockdown Protest Case Study. Americas Conference on Information Systems (AMCIS 2022). August 10-14, 2022, Minneapolis, Minnesota, USA.
-                        <br> Theocharis, Y., Vitoratou, S., Sajuria, J., 2017. Civil Society in Times of Crisis: Understanding Collective Action Dynamics in Digitally-Enabled Volunteer Networks: Civil Society in Times of Crisis. J Computer-Mediated Comm 22, 248–265. https://doi.org/10.1111/jcc4.12194
+                        Leonardi, P. M. (2013). When Does Technology Use Enable Network Change in Organizations? A Comparative Study of Feature Use and Shared Affordances, MIS Quarterly (37:3), pp.749-775.
+                        <br> Maleki, M., Arani, M., Buchholz, E., Mead, E., & Agarwal, N. (2021). Applying an Epidemiological Model to Evaluate the Propagation of Misinformation and Legitimate COVID-19-Related Information on Twitter. International Conference on Social Computing, Behavioral-Cultural Modeling and Prediction and Behavior Representation in Modeling and Simulation, 23–34. https://doi.org/10.1007/978-3-030-80387-2_3
+                        <br> Maleki, M., Mead, E., Arani, M., & Agarwal, N. (2021a). Using an Epidemiological Model to Study the Spread of Misinformation during the Black Lives Matter Movement. https://doi.org/10.48550/arxiv.2103.12191
+                        <br> Maleki, M., Mead, E. L., Agarwal, N., Arani, M., Mead, E., & Kready, J. (2022). Applying an Epidemiological Model to Evaluate the Propagation of Toxicity related to COVID-19 on Twitter. Hawaii International Conference on System Sciences (HICSS), 1–10. https://doi.org/10.24251/HICSS.2022.401
+                        <br> Obadimu, A., Khaund, T., Mead, E., Marcoux, T., & Agarwal, N. (2021). Developing a socio-computational approach to examine toxicity propagation and regulation in COVID-19 discourse on YouTube. Information Processing and Management 58, 5 (2021), 102660. https://doi.org/10.1016/j.ipm.2021.102660.
+                        <br>Obadimu, A., Mead, E., & Agarwal, N. (2019). Identifying Latent Toxic Features on YouTube Using Non-negative Matrix Factorization.
+
+                        <br>Obadimu, A., Mead, E., Hussain, M. N., & Agarwal, N. (2019a). Identifying Toxicity Within YouTube Video Comment. In R. Thomson, H. Bisgin, C. Dancy, & A. Hyder (Eds.), Social, Cultural, and Behavioral Modeling (pp. 214–223). Springer International Publishing.
+
+                        <br>Spann, B., Agarwal, N., Johnson, S., and Mead, E., (2020). Modeling Protester Orchestration through Connective Action: A COVID-19 Lockdown Protest Case Study. 2020 International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction, and Behavior Representation in Modeling and Simulation (SBP-BRiMS 2020), October 18-21, 2020, Washington D.C.
+
+                        <br>Spann, B., Mead, E., Maleki, M., Agarwal, N., and Williams, T. (2022). Applying Diffusion of Innovations Theory to Social Networks to Understand the Stages of Adoption in Connective Action Campaigns. Online Social Networks and Media, Elsevier. Vol. 28, March. DOI: 10.1016/j.osnem.2022.100201.
                     </p>
                 </div>
             </div>
-        </div>
             <!-- <div class="line"></div> -->
             <!-- <div>
                 <img src="assets/images/block.png" alt=”an artist's rendition of a black hole in space”>
@@ -375,7 +558,7 @@
         });
     </script>
         <!-- ===== MAIN JS ===== -->
-        <script src="assets/js/main.js"></script>
+        <script src="../assets/js/main.js"></script>
 </body>
 
 </html>

@@ -222,6 +222,9 @@ To do : Collapsible
     float: left;
     transform: scale(1.5);
     padding-right: 15px;
+    color: #212529;
+    border-color: white;
+    border: none;
 }
 
 .collapsible_button--active {
@@ -270,10 +273,16 @@ To do : Collapsible
   background-size: 100% auto
 }
 
-/* .collapsible_button h5{
-  color:#72bcd4;
+.collapsible_button h5{
+  color:#293B65;
 }
-  
+
+.collapsible_button h6{
+  color:#293B65;
+  padding-top: 4px;
+}
+
+/*
 #sectionHeader h5{
   color:#72bcd4;
 } */

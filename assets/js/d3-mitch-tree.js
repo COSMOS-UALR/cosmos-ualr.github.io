@@ -12586,9 +12586,9 @@ function () {
       }).on("click", function (data, index, arr) {
        // window.location.href="pages/characterizingDynamicsOfSocialCampaign.html";
 
-        return _this9._onNodeClick.call(_this9, data, index, arr);
+      return _this9._onNodeClick.call(_this9, data, index, arr);
       });
-     
+
       this._nodeEnter(nodeEnter, nodes); // UPDATE
 
 
@@ -13474,7 +13474,6 @@ function (_BaseTree) {
       nodeEnter.append("text").text(function (data, index, arr) {
         return _this2.getDisplayText.call(_this2, data);
       });
-      console.log("information about the node", nodeEnter);
       return this;
     }
     /** @inheritdoc */

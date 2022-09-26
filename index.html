@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/d3-mitch-tree.css">
     <link rel="stylesheet" href="assets/css/d3-mitch-tree-theme-default.css">
+    <link rel="stylesheet" href="assets/css/tree-boxes.css">
     <script src="assets/js/d3-mitch-tree.js"></script>
 
     <!-- Bootstrap CSS CDN -->
@@ -19,6 +20,9 @@
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://d3js.org/d3.v3.min.js" type="text/javascript"></script>
+    <script src="assets/js/box-trees.js" type="text/javascript"></script>
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
@@ -134,15 +138,7 @@
                     <br><br>3. There is not much focus on impact assessment in existing frameworks. These frameworks mainly focus on defining TTPs and identifying/detecting these and not on impact assessment. In our approach, we address these gaps. Further, our approaches have rigorous theoretical and mathematical grounding.
                 </p>
                 <br>
-                <div id="high-level-diagram">
-                    <button type="button" class="collapsible_button">
-                        <h6>High Level Diagram
-                        </h6>
-                    </button>
-                    <div class="collapsible-content">
-                        <div id="my_tree" style="width: 80%;height: 800px;"></div>
-                    </div>
-                </div>                
+                            
             </div>
 
             <!--01 Review of Existing Framework-->
@@ -580,51 +576,18 @@
                         recommender systems.
                     </p>
                 </div>
+                <div id="collapsible-content">
+                    <ct-visualization id="tree-container"></ct-visualization>
+                    <script>
+                        d3.json("assets/data/multimedia-ioe.json", function(error, json) {
+                            treeBoxes('', json.tree);
+                        });
+                    </script>
+                    <!-- <div class="collapsible-content">
+                        <div id="my_tree" style="width: 80%;height: 800px;"></div>
+                    </div> -->
+                </div>   
             </div>
-
-            <!--04 Taxonomy of Data and Analytics for Multimedia rich OIE -->
-            <br>
-            <div>
-                <h5>Dynamic Characterization of Information Producers </h5>
-                <p>
-                    We leverage the diffusion of innovations (DOI) theory to show how users adopt into social
-                    media campaigns. The psychological and social behaviors that are understood from the DOI
-                    model can be applied to social networks to categorize social media users into adoption categories
-                    and to use diffusion curves to determine if a campaign has reached its tipping point (see Figure
-                    2). We demonstrate this application of DOI theory to social networks in (Spann, et al., 2022),
-                    where we show how the spread of misinformation follows a trajectory pattern similar to the
-                    adoption of new technologies. The framework in this proposal considers these two approaches to
-                    understanding the diffusion of information in a connective action campaign. This view can be
-                    used to help shape collective identity and understand whether a collective response is a function
-                    of aggregation effects or specific interaction conditions within a group. This research also
-                    consider how online social networks are used for the purpose of social media campaigns. The
-                    sociotechnical theories of affordance and interdependence amongst users are applied to
-                    understand how individual user participation impacts the rate of adoption into an information
-                    campaign. The interactions between users in a connective action campaign can provide insights
-                    to help determine how future actors will react as information propagates through the network.
-                    Leonardi distinguished between these types of actions by labeling them as individualized, shared,
-                    and collective affordances (Leonardi, 2013). The interdependencies created between users
-                    creates a production function that allows us to measure the diffusion of information in a cyber
-                    campaign. The initial observations from our analysis support a mathematical characterization for
-                    connective action campaigns and show how affordances can be used to identify the inter-user
-                    message strategy (Spann, et al., 2020).
-                    Figure 2. Diffusion of Innovation (DOI) model and stages for user adoption (left). Model of s-
-                    curve campaign cycle trajectory (right).
-                    We leverage the diffusion of innovations (DOI) theory to examine the trajectory of the overall
-                    campaign as it evolves. The second derivative test is then applied to identify changes in the slope
-                    of the s-curve. The second derivative test is a method in multivariable calculus used to determine
-                    if a critical point of a function is a local minimum, maximum or saddle point. This empirical
-                    approach provides an initial quantitative method to find the points at which the slope of the
-                    curves shifts from the accelerating stage to the point at which the campaign reaches maximum
-                    diffusion or critical mass, and when the slope flattens out or enters the decelerating stage. Since
-                    DOI theory has been applied to various disciplines, a key benefit to this approach is that the s-
-                    curves are platform independent. Understanding these processes provides a foundation for
-                </p>
-
-                <!--Tree comes here-->
-            </div>
-
-
         </div>
     </div>
 

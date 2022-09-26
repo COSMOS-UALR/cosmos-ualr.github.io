@@ -1,0 +1,1139 @@
+{
+    "tree": {
+       "label": "0",
+       "name": "0",
+       "type": "type3",
+       "code": "N0",
+       "nodeName": "Multimedia OIE Characterization",
+       "version": "v1.0",
+       "link": {
+          "label": "Multimedia OIE Characterization",
+          "name": "Link Node Name 0",
+          "url": "",
+          "direction": "ASYN"
+       },
+       "children": [
+          {
+             "label": "00",
+             "name": "00",
+             "type": "type2",
+             "code": "N00",
+             "nodeName": "Characterizing tactics and impact assessment",
+             "version": "v1.0",
+             "link": {
+                "label": "Characterizing tactics and impact assessment",
+                "name": "Link Node Name 0",
+                "url": "",
+                "direction": "ASYN"
+             },
+             "children": [
+                {
+                   "label": "000",
+                   "name": "000",
+                   "type": "type2",
+                   "code": "N000",
+                   "nodeName": "Content",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Content",
+                      "name": "Link Node Name 00",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0000",
+                         "name": "0000",
+                         "type": "type2",
+                         "code": "N0000",
+                         "nodeName": "Discourse Shift",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Discourse Shift",
+                            "name": "Link Node Name 000",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0001",
+                         "name": "0001",
+                         "type": "type1",
+                         "code": "N0001",
+                         "nodeName": "Shallow Deep Fakes",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Shallow Deep Fakes",
+                            "name": [
+                               "Link Node Name 000",
+                               ""
+                            ],
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0002",
+                         "name": "0002",
+                         "type": "type3",
+                         "code": "N0002",
+                         "nodeName": "Content Cloning /Repurposing",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Content Cloning /Repurposing",
+                            "name": "Link Node Name 000",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0003",
+                         "name": "0003",
+                         "type": "type3",
+                         "code": "N0003",
+                         "nodeName": "Discourse/Narrative Fusion",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Discourse/Narrative Fusion",
+                            "name": "Link Node Name 000",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0004",
+                         "name": "0004",
+                         "type": "type3",
+                         "code": "N0004",
+                         "nodeName": "Coordinated Content Push",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Discourse/Narrative Fusion",
+                            "name": "Link Node Name 000",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0004",
+                         "name": "0004",
+                         "type": "type3",
+                         "code": "N0004",
+                         "nodeName": "Toxicity And Community",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Toxicity And Community",
+                            "name": "Link Node Name 000",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0005",
+                         "name": "0005",
+                         "type": "type3",
+                         "code": "N0005",
+                         "nodeName": "Cross Platform Coordination",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Cross Platform Coordination",
+                            "name": "Link Node Name 000",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0006",
+                         "name": "0006",
+                         "type": "type3",
+                         "code": "N0006",
+                         "nodeName": "Coordinated Deep Fake",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Coordinated Deep Fake",
+                            "name": "Link Node Name 000",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                },
+                {
+                   "label": "001",
+                   "name": "001",
+                   "type": "type3",
+                   "code": "N001",
+                   "nodeName": "Network",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Content",
+                      "name": "Link Node Name 00",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0010",
+                         "name": "0010",
+                         "type": "type3",
+                         "code": "N0010",
+                         "nodeName": "Commenter Flash Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Commenter Flash Mob",
+                            "name": "Link Node Name 001",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0011",
+                         "name": "0011",
+                         "type": "type3",
+                         "code": "N0011",
+                         "nodeName": "Discourse/Narrative Fusion",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Commenter Flash Mob",
+                            "name": "Link Node Name 001",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0012",
+                         "name": "0012",
+                         "type": "type3",
+                         "code": "N0012",
+                         "nodeName": "Coordinated Content Push",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Coordinated Content Push",
+                            "name": "Link Node Name 001",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0013",
+                         "name": "0013",
+                         "type": "type3",
+                         "code": "N0013",
+                         "nodeName": "Toxicity And Community",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Toxicity And Community",
+                            "name": "Link Node Name 001",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0014",
+                         "name": "0014",
+                         "type": "type3",
+                         "code": "N0014",
+                         "nodeName": "Cross Platform Coordination",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Cross Platform Coordination",
+                            "name": "Link Node Name 001",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0015",
+                         "name": "0015",
+                         "type": "type3",
+                         "code": "N0015",
+                         "nodeName": "Coordinated Deep Fake",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Coordinated Deep Fake",
+                            "name": "Link Node Name 001",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                },
+                {
+                   "label": "002",
+                   "name": "002",
+                   "type": "type3",
+                   "code": "N002",
+                   "nodeName": "Platform Affordance",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Content",
+                      "name": "Link Node Name 00",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0020",
+                         "name": "0020",
+                         "type": "type3",
+                         "code": "N0020",
+                         "nodeName": "Algorithmic Bias Exploitation",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Algorithmic Bias Exploitation",
+                            "name": "Link Node Name 002",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0021",
+                         "name": "0021",
+                         "type": "type3",
+                         "code": "N0021",
+                         "nodeName": "Artificial Engagement Boosting",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Artificial Engagement Boosting",
+                            "name": "Link Node Name 002",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0022",
+                         "name": "0022",
+                         "type": "type3",
+                         "code": "N0022",
+                         "nodeName": "Long Term/Short Term Gain",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Long Term/Short Term Gain",
+                            "name": "Link Node Name 002",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0023",
+                         "name": "0023",
+                         "type": "type3",
+                         "code": "N0023",
+                         "nodeName": "Cross Platform Coordination",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Cross Platform Coordination",
+                            "name": "Link Node Name 002",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0024",
+                         "name": "0024",
+                         "type": "type3",
+                         "code": "N0024",
+                         "nodeName": "Coordinated Deep Fake",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Coordinated Deep Fake",
+                            "name": "Link Node Name 002",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "label": "01",
+             "name": "01",
+             "type": "type3",
+             "code": "N01",
+             "nodeName": "Characterizing socioCampaign process dynamics",
+             "version": "v1.0",
+             "link": {
+                "label": "Characterizing socioCampaign process dynamics",
+                "name": "Link Node Name 0",
+                "url": "",
+                "direction": "ASYN"
+             },
+             "children": [
+                {
+                   "label": "010",
+                   "name": "010",
+                   "type": "type3",
+                   "code": "N010",
+                   "nodeName": "Connective Action Based Framework",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Connective Action Based Framework",
+                      "name": "Link Node Name 01",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0100",
+                         "name": "0100",
+                         "type": "type3",
+                         "code": "N0100",
+                         "nodeName": "Collective Identity",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Collective Identity",
+                            "name": "Link Node Name 010",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0101",
+                         "name": "0101",
+                         "type": "type3",
+                         "code": "N0101",
+                         "nodeName": "Network Organization",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Network Organization",
+                            "name": "Link Node Name 010",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0102",
+                         "name": "0102",
+                         "type": "type3",
+                         "code": "N0102",
+                         "nodeName": "Mobilization",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Mobilization",
+                            "name": "Link Node Name 010",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                },
+                {
+                   "label": "011",
+                   "name": "011",
+                   "type": "type3",
+                   "code": "N011",
+                   "nodeName": "n function Characterization",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "n function Characterization",
+                      "name": "Link Node Name 01",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0110",
+                         "name": "0110",
+                         "type": "type3",
+                         "code": "N0110",
+                         "nodeName": "Accelerating Phrase",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Accelerating Phrase",
+                            "name": "Link Node Name 011",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0111",
+                         "name": "0111",
+                         "type": "type3",
+                         "code": "N0111",
+                         "nodeName": "Decelerating Phrase",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Decelerating Phrase",
+                            "name": "Link Node Name 011",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "label": "02",
+             "name": "02",
+             "type": "type3",
+             "code": "N02",
+             "nodeName": "Characterizing Information Actors",
+             "version": "v1.0",
+             "link": {
+                "label": "Characterizing Information Actors",
+                "name": "Link Node Name 0",
+                "url": "",
+                "direction": "ASYN"
+             },
+             "children": [
+                {
+                   "label": "020",
+                   "name": "020",
+                   "type": "type3",
+                   "code": "N020",
+                   "nodeName": "Information Producer",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Information Producer",
+                      "name": "Link Node Name 02",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0200",
+                         "name": "0200",
+                         "type": "type3",
+                         "code": "N0200",
+                         "nodeName": "Diffusion Of Innovation Theory Based On Toxicity Propaganda",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Diffusion Of Innovation Theory Based On Toxicity Propaganda",
+                            "name": "Link Node Name 020",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": [
+                            {
+                               "label": "02000",
+                               "name": "02000",
+                               "type": "type3",
+                               "code": "N02000",
+                               "nodeName": "Innovators",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Innovators",
+                                  "name": "Link Node Name 0200",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02001",
+                               "name": "02001",
+                               "type": "type3",
+                               "code": "N02001",
+                               "nodeName": "Early Adopters",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Early Adopters",
+                                  "name": "Link Node Name 0200",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02002",
+                               "name": "02002",
+                               "type": "type3",
+                               "code": "N02002",
+                               "nodeName": "Early Majority",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Early Majority",
+                                  "name": "Link Node Name 0200",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02003",
+                               "name": "02003",
+                               "type": "type3",
+                               "code": "N02003",
+                               "nodeName": "Late Majority",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Late Majority",
+                                  "name": "Link Node Name 0200",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02004",
+                               "name": "02004",
+                               "type": "type3",
+                               "code": "N02004",
+                               "nodeName": "Late Adopters",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Late Adopters",
+                                  "name": "Link Node Name 0200",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            }
+                         ]
+                      },
+                      {
+                         "label": "0201",
+                         "name": "0201",
+                         "type": "type3",
+                         "code": "N0201",
+                         "nodeName": "n Shaped Characteristics",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "n Shaped Characteristics",
+                            "name": "Link Node Name 020",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": [
+                            {
+                               "label": "02010",
+                               "name": "02010",
+                               "type": "type3",
+                               "code": "N02010",
+                               "nodeName": "Initiators",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Initiators",
+                                  "name": "Link Node Name 0201",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02011",
+                               "name": "02011",
+                               "type": "type3",
+                               "code": "N02011",
+                               "nodeName": "Amplifiers",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Amplifiers",
+                                  "name": "Link Node Name 0201",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02012",
+                               "name": "02012",
+                               "type": "type3",
+                               "code": "N02012",
+                               "nodeName": "Sustainers",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "sustainers",
+                                  "name": "Link Node Name 0201",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label": "021",
+                   "name": "021",
+                   "type": "type3",
+                   "code": "N021",
+                   "nodeName": "Information Consumer",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Information Consumer",
+                      "name": "Link Node Name 02",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0210",
+                         "name": "0210",
+                         "type": "type3",
+                         "code": "N0210",
+                         "nodeName": "Epidemiological Model based Characterization",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Epidemiological Model based Characterization",
+                            "name": "Link Node Name 021",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": [
+                            {
+                               "label": "02100",
+                               "name": "02100",
+                               "type": "type3",
+                               "code": "N02100",
+                               "nodeName": "Susceptible",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Susceptible",
+                                  "name": "Link Node Name 0210",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02101",
+                               "name": "02101",
+                               "type": "type3",
+                               "code": "N02101",
+                               "nodeName": "Exposed",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Exposed",
+                                  "name": "Link Node Name 0210",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02102",
+                               "name": "02102",
+                               "type": "type3",
+                               "code": "N02102",
+                               "nodeName": "Infected",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Infected",
+                                  "name": "Link Node Name 0210",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02103",
+                               "name": "02103",
+                               "type": "type3",
+                               "code": "N02103",
+                               "nodeName": "Skeptic",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Skeptic",
+                                  "name": "Link Node Name 0210",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "label": "022",
+                   "name": "022",
+                   "type": "type3",
+                   "code": "N022",
+                   "nodeName": "Information Actors Characterization Based On Toxicity Propaganda",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Content",
+                      "name": "Link Node Name 02",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0220",
+                         "name": "0220",
+                         "type": "type3",
+                         "code": "N0220",
+                         "nodeName": "Epidemiological Model based Characterization(STRS model)",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Epidemiological Model based Characterization",
+                            "name": "Link Node Name 022",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": [
+                            {
+                               "label": "02200",
+                               "name": "02200",
+                               "type": "type3",
+                               "code": "N02200",
+                               "nodeName": "Susceptible",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Susceptible",
+                                  "name": "Link Node Name 0220",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02201",
+                               "name": "02201",
+                               "type": "type3",
+                               "code": "N02201",
+                               "nodeName": "Toxic",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Toxic",
+                                  "name": "Link Node Name 0220",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            },
+                            {
+                               "label": "02202",
+                               "name": "02202",
+                               "type": "type3",
+                               "code": "N02202",
+                               "nodeName": "Recovered",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Recovered",
+                                  "name": "Link Node Name 0220",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            }
+                         ]
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "label": "03",
+             "name": "03",
+             "type": "type3",
+             "code": "N03",
+             "nodeName": "Characterizing Network Coordinating Structures",
+             "version": "v1.0",
+             "link": {
+                "label": "Characterizing Network Coordinating Structures",
+                "name": "Link Node Name 0",
+                "url": "",
+                "direction": "ASYN"
+             },
+             "children": [
+                {
+                   "label": "030",
+                   "name": "030",
+                   "type": "type3",
+                   "code": "N030",
+                   "nodeName": "Contextual Focal Structure Analysis",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Contextual Focal Structure Analysis",
+                      "name": "Link Node Name 03",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0300",
+                         "name": "0300",
+                         "type": "type3",
+                         "code": "N0300",
+                         "nodeName": "Core Structure(focal structure-core mobilizers)",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Core Structure(focal structure-core mobilizers)",
+                            "name": "Link Node Name 030",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": [
+                            {
+                               "label": "03000",
+                               "name": "03000",
+                               "type": "type3",
+                               "code": "N03000",
+                               "nodeName": "Peripheral structure(foot soldiers)",
+                               "version": "v1.0",
+                               "link": {
+                                  "label": "Peripheral structure(foot soldiers)",
+                                  "name": "Link Node Name 030",
+                                  "url": "",
+                                  "direction": "ASYN"
+                               },
+                               "children": []
+                            }
+                         ]
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "label": "04",
+             "name": "04",
+             "type": "type3",
+             "code": "N04",
+             "nodeName": "Characterizing Mobs",
+             "version": "v1.0",
+             "link": {
+                "label": "Characterizing Mobs",
+                "name": "Link Node Name 0",
+                "url": "",
+                "direction": "ASYN"
+             },
+             "children": [
+                {
+                   "label": "040",
+                   "name": "040",
+                   "type": "type3",
+                   "code": "N040",
+                   "nodeName": "Environment-based Characterization",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Environment-based Characterization",
+                      "name": "Link Node Name 04",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0400",
+                         "name": "0400",
+                         "type": "type3",
+                         "code": "N0400",
+                         "nodeName": "Cyber Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Cyber Mob",
+                            "name": "Link Node Name 040",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0401",
+                         "name": "0401",
+                         "type": "type3",
+                         "code": "N0401",
+                         "nodeName": "Physical Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Physical Mob",
+                            "name": "Link Node Name 040",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0402",
+                         "name": "0402",
+                         "type": "type3",
+                         "code": "N0402",
+                         "nodeName": "Cybernetic Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Cybernetic Mob",
+                            "name": "Link Node Name 040",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                },
+                {
+                   "label": "041",
+                   "name": "041",
+                   "type": "type3",
+                   "code": "N041",
+                   "nodeName": "Time based Characterization",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Time based Characterization",
+                      "name": "Link Node Name 04",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0410",
+                         "name": "0410",
+                         "type": "type3",
+                         "code": "N0410",
+                         "nodeName": "Flash Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Flash Mob",
+                            "name": "Link Node Name 041",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0411",
+                         "name": "0411",
+                         "type": "type3",
+                         "code": "N0411",
+                         "nodeName": "Long Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Long Mob",
+                            "name": "Link Node Name 041",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                },
+                {
+                   "label": "042",
+                   "name": "042",
+                   "type": "type3",
+                   "code": "N042",
+                   "nodeName": "Motive-based Characterization",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Motive-based Characterization",
+                      "name": "Link Node Name 04",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0420",
+                         "name": "0420",
+                         "type": "type3",
+                         "code": "N0420",
+                         "nodeName": "Entertainment Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Entertainment Mob",
+                            "name": "Link Node Name 042",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0421",
+                         "name": "0421",
+                         "type": "type3",
+                         "code": "N0421",
+                         "nodeName": "Malicious Deviant Mob",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Malicious Deviant Mob",
+                            "name": "Link Node Name 042",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                },
+                {
+                   "label": "043",
+                   "name": "043",
+                   "type": "type3",
+                   "code": "N043",
+                   "nodeName": "Actor-based Characterization",
+                   "version": "v1.0",
+                   "link": {
+                      "label": "Actor-based Characterization",
+                      "name": "Link Node Name 04",
+                      "url": "",
+                      "direction": "ASYN"
+                   },
+                   "children": [
+                      {
+                         "label": "0430",
+                         "name": "0430",
+                         "type": "type3",
+                         "code": "N0430",
+                         "nodeName": "Human Actor",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Human Actor",
+                            "name": "Link Node Name 043",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0431",
+                         "name": "0431",
+                         "type": "type3",
+                         "code": "N0431",
+                         "nodeName": "Automated(AI) Actor",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Automated(AI) Actor",
+                            "name": "Link Node Name 043",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      },
+                      {
+                         "label": "0432",
+                         "name": "0432",
+                         "type": "type3",
+                         "code": "N0432",
+                         "nodeName": "Hybrid Actor",
+                         "version": "v1.0",
+                         "link": {
+                            "label": "Hybrid Actor",
+                            "name": "Link Node Name 043",
+                            "url": "",
+                            "direction": "ASYN"
+                         },
+                         "children": []
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ }
+ 

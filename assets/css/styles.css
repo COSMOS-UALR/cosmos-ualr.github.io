@@ -141,6 +141,14 @@ ul ul a {
   background: #ADD8E6;
 }
 
+#page-link6 {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
 ul.CTAs {
   padding: 20px;
 }
@@ -361,7 +369,7 @@ To do : Collapsible
 }
 
 
-.page-link5:hover {
+.page-link5:hover, .page-link6:hover {
   
   color: #6d7fcc !important;
   cursor: pointer !important;

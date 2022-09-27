@@ -28,11 +28,6 @@
         integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
         crossorigin="anonymous"></script>
 
-    
-
-
-
-    
 </head>
 
 <body>
@@ -48,43 +43,55 @@
                     <a href="#overviewSubMenu" data-toggle="collapse" aria-expanded="false"
                         class="dropdown-toggle">Overview</a>
                     <ul class="collapse list-unstyled" id="overviewSubMenu">
-                        
-                            <li id="item-0-0" class="page-link" >Environment Characterization</li>
-                            <li id="item-0-1" class="page-link">Review of Existing Frameworks</li>
-                            <li id="item-0-2" class="page-link">Missing Element: Multimedia Platforms</li>
-                            <li id="item-0-3" class="page-link">Multimedia Characterization of Incidents</li>
-                            <li id="item-0-4" class="page-link">Dynamic Characterization of Information Producers</li>
-                        
+
+                        <li id="item-0-0" class="page-link">Environment Characterization</li>
+                        <li id="item-0-1" class="page-link">Review of Existing Frameworks</li>
+                        <li id="item-0-2" class="page-link">Missing Element: Multimedia Platforms</li>
+                        <li id="item-0-3" class="page-link">Multimedia Characterization of Incidents</li>
+                        <li id="item-0-4" class="page-link">Dynamic Characterization of Information Producers</li>
+
                     </ul>
 
                     <!--Chacterization and tactics impact assesment -->
                     <a href="#characterizingTacticsImapactAssesment" data-toggle="collapse" aria-expanded="false"
                         class="dropdown-toggle">Characterizing of Multimedia OIE</a>
+
                     <ul class="collapse list-unstyled" id="characterizingTacticsImapactAssesment">
-                            <li id="item-1-0" class="page-link1">Specific Tactics and Impact Assessment</li>
-                            <li id="item-1-1" class="page-link1">Commenter Flash Mob</li>
-                            <li id="item-1-2" class="page-link1">Coordinated Content Push</li>
-                            <li id="item-1-3" class="page-link1">Discourse Narrative Fusion</li>
-                        
+                        <li id="item-1-0" class="page-link1">Specific Tactics and Impact Assessment</li>
+                        <li id="item-1-1" class="page-link1">Commenter Flash Mob</li>
+                        <li id="item-1-2" class="page-link1">Coordinated Content Push</li>
+                        <li id="item-1-3" class="page-link1">Discourse Narrative Fusion</li>
+
                     </ul>
 
-            <!--Characterizing Dynamics of Social Campaign -->
-            <div id="item-2-0" class="page-link2" >Characterizing Dynamics of Social Campaign</div>
+                    <!--Characterizing Dynamics of Social Campaign -->
+                    <div id="item-2-0" class="page-link2">Characterizing Dynamics of Social Campaign</div>
 
-            <!--Characterizing Information Actors and Consumers Dynamically -->
-            <div id="item-3-0" class="page-link3">Characterizing Information
-                Actors & Consumers Dynamically</div>
+                    <!--Characterizing Information Actors and Consumers Dynamically -->
+                    <div id="item-3-0" class="page-link3">Characterizing Information
+                        Actors & Consumers Dynamically</div>
 
-            <!--Characterization of Mobs-->
-            <div id="item-4-0" class="page-link4">Characterization of Mobs</div>
+                    <!--Characterization of Mobs-->
+                    <div id="item-4-0" class="page-link4">Characterization of Mobs</div>
 
-            <!--Characterization of Network Coordination Structure -->
-            <div id="item-5-0" class="page-link5">Characterization of Network Coordination Structure </div>
+                    <!--Characterization of Network Coordination Structure -->
+                    <div id="item-5-0" class="page-link5">Characterization of Network Coordination Structure </div>
 
-            </li>
+                    <br><br>
+                    <div class="solid-line"></div>
+                    <br><br>
+
+                    <!-- Chacterization and tactics impact assesment
+                    <a href="#taxonomyTrees" data-toggle="collapse" aria-expanded="false"
+                         class="dropdown-toggle">Taxonomy Trees</a>
+ 
+                     <ul class="collapse list-unstyled" id="taxonomyTrees">
+                         <li id="item-6-0" class="page-link6">  Characterization Framework Tree</li>
+                     </ul> -->
+
+                </li>
             </ul>
 
-            <div class="solid-line"></div>
 
             <ul class="list-unstyled components">
 
@@ -117,11 +124,14 @@
 
             </div>
             <br>
+            <br>
             <div id="high-level-diagram">
                 <div class="">
+                    The characterization Trees is: 
                     <div id="my_tree" style="width: 80%;height: 800px;"></div>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -157,23 +167,23 @@
             });
         });
 
-        $('.dynamic-contents').on('click','.collapsible_button',function(){
-            
-            var content=$(this).next();
+        $('.dynamic-contents').on('click', '.collapsible_button', function () {
+
+            var content = $(this).next();
             console.log(content.css('maxHeight'));
 
-            if(content.css('maxHeight')!="none") {
-               // content.style.maxHeight = content.scrollHeight + 'px';
-               content.css('maxHeight',"none");
-               
-               
+            if (content.css('maxHeight') != "none") {
+                // content.style.maxHeight = content.scrollHeight + 'px';
+                content.css('maxHeight', "none");
+
+
             } else {
-                content.css('maxHeight','0px');
+                content.css('maxHeight', '0px');
                 //content.css("maxHeight",`${content.css('scrollHeight')}px`);
-                
-            
-              }  
-              });
+
+
+            }
+        });
     </script>
     <!-- ===== MAIN JS ===== -->
     <script src="assets/js/main.js"></script>

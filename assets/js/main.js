@@ -77,6 +77,16 @@ $('.page-link5').on('click', function () {
   }
 });
 
+$('.page-link6').on('click', function () {
+  var item_id = $(this).attr('id');
+
+  if (item_id == "item-6-0") {
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/taxonomyTree/characterizationTrees.html");
+  }
+});
+
+
 
 
 $(document).ready(function () {
@@ -111,8 +121,6 @@ $(document).on('click', '.page-link1', function () {
 
     }
   }
-
-
 });
 
 

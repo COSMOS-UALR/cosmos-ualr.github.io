@@ -15,7 +15,7 @@
 }
 
 .mitch-d3-tree.boxed-tree.default .node.collapsed .body-group .body-box {
-  fill: lightsteelblue;
+  fill: goldenrod;
 }
 
 .mitch-d3-tree.boxed-tree.default .node.selected .body-group .body-box {
@@ -24,15 +24,15 @@
 }
 
 .mitch-d3-tree.boxed-tree.default .node .body-group .body-box {
-  stroke: steelblue;
+  stroke: goldenrod;
   fill: white;
   rx: 6;
   ry: 6;
 }
 
 .mitch-d3-tree.boxed-tree.default .node .title-group .title-box {
-  stroke: steelblue;
-  fill: #4682B4;
+  stroke: tomato;
+  fill: tomato;
   rx: 10;
   ry: 10;
 }

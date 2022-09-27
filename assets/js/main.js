@@ -40,280 +40,410 @@
 // }
 
 
+$('.page-link2').on('click', function () {
+  var item_id = $(this).attr('id');
+
+  if (item_id == "item-2-0") {
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/characterizingDynamicsOfSocialCampaign/page-2-0.html");
+  }
+});
+
+
+$('.page-link3').on('click', function () {
+  var item_id = $(this).attr('id');
+
+  if (item_id == "item-3-0") {
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/characterizingInformationActorsAndConsumersDynamically/page-3-0.html");
+  }
+});
+
+$('.page-link4').on('click', function () {
+  var item_id = $(this).attr('id');
+
+  if (item_id == "item-4-0") {
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/characterizationOfMobs/page-4-0.html");
+  }
+});
+
+$('.page-link5').on('click', function () {
+  var item_id = $(this).attr('id');
+
+  if (item_id == "item-5-0") {
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/characterizationOfNetworkCoordinateStructure/page-5-0.html");
+  }
+});
+
+
+
+$(document).ready(function () {
+
+  $(".dynamic-contents").load("sections/overview/page-0-0.html");
+
+});
+
+$(document).on('click', '.page-link', function () {
+  var liTags = $(this).parent().children();
+  for (var i = 0; i < liTags.length; i++) {
+    if (liTags[i].id == $(this).attr('id')) {
+      var id = $(this).attr('id');
+      var index = id.slice(4, 8);
+      $(".dynamic-contents").empty();
+      $(".dynamic-contents").load(`sections/overview/page${index}.html`);
+
+    }
+  }
+
+
+});
+
+$(document).on('click', '.page-link1', function () {
+  var liTags = $(this).parent().children();
+  for (var i = 0; i < liTags.length; i++) {
+    if (liTags[i].id == $(this).attr('id')) {
+      var id = $(this).attr('id');
+      var index = id.slice(4, 8);
+      $(".dynamic-contents").empty();
+      $(".dynamic-contents").load(`sections/characterizingTaticsAndImpactAssesment/page${index}.html`);
+
+    }
+  }
+
+
+});
+
+
+
+/*$(document).on('click','.page-link', function () {
+  
+  var item_id= $(this).attr('id');
+
+  if(item_id=="item-0-0"){
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/overview/page-0-0.html");
+  }
+
+  if(item_id=="item-0-1"){
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/overview/page-0-1.html");
+  }
+
+  if(item_id=="item-0-2"){
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/overview/page-0-2.html");
+  }
+
+  if(item_id=="item-0-3"){
+    $(".dynamic-contents").empty();
+    $(".dynamic-contents").load("sections/overview/page-0-3.html");
+  }
+     });
+
+
+
+$(document).on('click','.page-link1', function (){
+  
+  var item_id= $(this).attr('id');
+    
+  if(item_id=="item-1-0"){
+        $(".dynamic-contents").empty();
+        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-0.html");
+      }
+    
+  if(item_id=="item-1-1"){
+        $(".dynamic-contents").empty();
+        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-1.html");
+      }
+    
+  if(item_id=="item-1-2"){
+        $(".dynamic-contents").empty();
+        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-2.html");
+      }
+    
+  if(item_id=="item-1-3"){
+        $(".dynamic-contents").empty();
+        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-3.html");
+      }
+         }); */
+
+
+
+
 var data = {
-  "id"    : 1,
-  "title" : "+3",
-  "value" : "Multimedia OIE",
+  "id": 1,
+  "title": "+3",
+  "value": "Multimedia OIE",
   "children": [
-      {
-          "id"    : 2,
-          "title" : "+3",
-          "value" : "Characterizing Tactics and Impact Assesment",
-          "children" : [
-            { 
-              "id": 6,
-              "title": "+7",
-               "value": "Content",
-              "children": [
-                  {
-                    "id": 59,
-                    "title": "",
-                    "value": "Discourse Shift"
-                  },
-                  {
-                    "id": 60,
-                    "title": "",
-                    "value": "Shallow/Deep Fake"
-                  },
-                  {
-                    "id": 61,
-                    "title": "",
-                    "value": "Content Cloning/repurposing"
-                  },
-                  {
-                    "id": 62,
-                    "title": "",
-                    "value": "Discourse/Narrative Fusion"
-                  },
-                  {
-                    "id": 64,
-                    "title": "",
-                    "value": "Coordinated Content Push"
-                  },
-                  {
-                    "id": 65,
-                    "title": "",
-                    "value": "Toxicity and Community"
-                  },
-                  {
-                    "id": 55,
-                    "title": "",
-                    "value": "Cross Platform Coordination"
-                  },
-                  {
-                    "id": 58,
-                    "title": "",
-                    "value": "Coordinated/Deep Fakes"
-                  },
-                ]
+    {
+      "id": 2,
+      "title": "+3",
+      "value": "Characterizing Tactics and Impact Assesment",
+      "children": [
+        {
+          "id": 6,
+          "title": "+7",
+          "value": "Content",
+          "children": [
+            {
+              "id": 59,
+              "title": "",
+              "value": "Discourse Shift"
             },
             {
-              "id": 7,
-              "title": "+6",
-              "value": "Network",
-               "children": [
-                {
-                  "id": 16,
-                  "title": "",
-                  "value": "Commenter Flash Mob"
-                },
-                {
-                  "id": 26,
-                  "title": "",
-                  "value": "Discourse/ Narrative Fusion"
-                },
-                {
-                  "id": 36,
-                  "title": "",
-                  "value": "Content Coordinator Push"
-                },
-                {
-                  "id": 44,
-                  "title": "",
-                  "value": "Toxicity and Community"
-                },
-                {
-                  "id": 63,
-                  "title": "",
-                  "value": "Cross Platform Coordinator"
-                },
-                {
-                  "id": 51,
-                  "title": "",
-                  "value": "Coordinated Deep Fakes"
-                },
-               ]
+              "id": 60,
+              "title": "",
+              "value": "Shallow/Deep Fake"
             },
             {
-              "id": 8,
+              "id": 61,
+              "title": "",
+              "value": "Content Cloning/repurposing"
+            },
+            {
+              "id": 62,
+              "title": "",
+              "value": "Discourse/Narrative Fusion"
+            },
+            {
+              "id": 64,
+              "title": "",
+              "value": "Coordinated Content Push"
+            },
+            {
+              "id": 65,
+              "title": "",
+              "value": "Toxicity and Community"
+            },
+            {
+              "id": 55,
+              "title": "",
+              "value": "Cross Platform Coordination"
+            },
+            {
+              "id": 58,
+              "title": "",
+              "value": "Coordinated/Deep Fakes"
+            },
+          ]
+        },
+        {
+          "id": 7,
+          "title": "+6",
+          "value": "Network",
+          "children": [
+            {
+              "id": 16,
+              "title": "",
+              "value": "Commenter Flash Mob"
+            },
+            {
+              "id": 26,
+              "title": "",
+              "value": "Discourse/ Narrative Fusion"
+            },
+            {
+              "id": 36,
+              "title": "",
+              "value": "Content Coordinator Push"
+            },
+            {
+              "id": 44,
+              "title": "",
+              "value": "Toxicity and Community"
+            },
+            {
+              "id": 63,
+              "title": "",
+              "value": "Cross Platform Coordinator"
+            },
+            {
+              "id": 51,
+              "title": "",
+              "value": "Coordinated Deep Fakes"
+            },
+          ]
+        },
+        {
+          "id": 8,
+          "title": "+5",
+          "value": "Platform Affordance",
+          "children": [
+            {
+              "id": 17,
+              "title": "",
+              "value": "Algorithmic Bias Exploration"
+            },
+            {
+              "id": 27,
+              "title": "",
+              "value": "Artificial Engagement Boosting"
+            },
+            {
+              "id": 45,
+              "title": "",
+              "value": "Cross Platform Coordinaton"
+            },
+            {
+              "id": 37,
+              "title": "",
+              "value": "Long Term/ Short Term Game"
+            },
+            {
+              "id": 52,
+              "title": "",
+              "value": "Coordinated Deep Fakes"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "id": 3,
+      "title": "+2",
+      "value": "Characterization of Social Process Dynamics",
+      "children": [
+        {
+          "id": 9,
+          "title": "+3",
+          "value": "Connective Action Based Framework",
+          "children": [
+            {
+              "id": 18,
+              "title": "",
+              "value": "Collective Identity"
+            },
+            {
+              "id": 23,
+              "title": "",
+              "value": "Network Organization"
+            },
+            {
+              "id": 38,
+              "title": "",
+              "value": "Mobilization"
+            },
+          ]
+        },
+        {
+          "id": 10,
+          "title": "+2",
+          "value": "S Function Characterization",
+          "children": [
+            {
+              "id": 19,
+              "title": "",
+              "value": "Accelerating Phase"
+            },
+            {
+              "id": 29,
+              "title": "",
+              "value": "Deccelerating Phase"
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "id": 4,
+      "title": "+3",
+      "value": "Characterizing Information Actor",
+      "children": [
+        {
+          "id": 11,
+          "title": "+2",
+          "value": "Information Producer",
+          "children": [
+            {
+              "id": 20,
               "title": "+5",
-              "value": "Platform Affordance",
-              "children" : [
+              "value": "Diffusion of Innovation Theory based Characterization",
+              "children": [
                 {
-                  "id": 17,
+                  "id": 30,
                   "title": "",
-                  "value": "Algorithmic Bias Exploration"
+                  "value": "Innovators"
                 },
                 {
-                  "id": 27,
+                  "id": 39,
                   "title": "",
-                  "value": "Artificial Engagement Boosting"
+                  "value": "Early Adopters"
                 },
                 {
-                  "id": 45,
+                  "id": 46,
                   "title": "",
-                  "value": "Cross Platform Coordinaton"
+                  "value": "Early Majority"
                 },
                 {
-                  "id": 37,
+                  "id": 53,
                   "title": "",
-                  "value": "Long Term/ Short Term Game"
+                  "value": "Late Majority"
                 },
                 {
-                  "id": 52,
+                  "id": 56,
                   "title": "",
-                  "value": "Coordinated Deep Fakes"
-                }
+                  "value": "Late Adopters"
+                },
+              ]
+            },
+            {
+              "id": 21,
+              "title": "",
+              "value": "S Characteristics",
+              "children": [
+                {
+                  "id": 31,
+                  "title": "",
+                  "value": "Initiators"
+                },
+                {
+                  "id": 40,
+                  "title": "",
+                  "value": "Amplifiers"
+                },
+                {
+                  "id": 47,
+                  "title": "",
+                  "value": "Sustainers"
+                },
               ]
             },
           ]
-      },
-      {
-          "id"    : 3,
-          "title" : "+2",
-          "value" : "Characterization of Social Process Dynamics",
-          "children" : [
-              {
-                "id": 9,
-                "title" : "+3",
-                "value": "Connective Action Based Framework",
-                "children": [
-                  {
-                    "id": 18,
-                    "title": "",
-                    "value": "Collective Identity"
-                  },
-                  {
-                    "id": 23,
-                    "title": "",
-                    "value": "Network Organization"
-                  },
-                  {
-                    "id": 38,
-                    "title": "",
-                    "value": "Mobilization"
-                  },
-                ]
-              },
-              {
-                "id"    : 10,
-                "title" : "+2",
-                "value" : "S Function Characterization",
-                "children": [
-                  {
-                    "id"    : 19,
-                    "title" : "",
-                    "value" : "Accelerating Phase"
-                },
-                {
-                  "id"    : 29,
-                  "title" : "",
-                  "value" : "Deccelerating Phase"
-              },
-                ]
-            },
-          ]
-      },
-      {
-        "id"    : 4,
-        "title" : "+3",
-        "value" : "Characterizing Information Actor",
-        "children" : [
-          {
-            "id": 11,
-            "title": "+2",
-            "value": "Information Producer",
-            "children": [
-              {
-                "id": 20,
-                "title": "+5",
-                "value": "Diffusion of Innovation Theory based Characterization",
-                "children": [
-                  {
-                    "id": 30,
-                    "title": "",
-                    "value": "Innovators" 
-                  },
-                  {
-                    "id": 39,
-                    "title": "",
-                    "value": "Early Adopters" 
-                  },
-                  {
-                    "id": 46,
-                    "title": "",
-                    "value": "Early Majority" 
-                  },
-                  {
-                    "id": 53,
-                    "title": "",
-                    "value": "Late Majority" 
-                  },
-                  {
-                    "id": 56,
-                    "title": "",
-                    "value": "Late Adopters" 
-                  },
-                ]
-              },
-              {
-                "id": 21,
-                "title": "",
-                "value": "S Characteristics",
-                "children" : [
-                  {
-                    "id": 31,
-                    "title": "",
-                    "value": "Initiators" 
-                  },
-                  {
-                    "id": 40,
-                    "title": "",
-                    "value": "Amplifiers" 
-                  },
-                  {
-                    "id": 47,
-                    "title": "",
-                    "value": "Sustainers"
-                  },
-                ] 
-              },
-            ]
-      },
-      {
-        "id": 12,
-        "title": "",
-        "value": "Information Consumer" 
-      },
-      {
-        "id": 13,
-        "title": "",
-        "value": "Information Actor Characterization based on Toxicity Propagation" 
-  },
-    ]
-  },
-    {
-      "id"    : 5,
-      "title" : "+2",
-      "value" : "Characterizing Network Coordinator Structure",
-      "children" : [
+        },
         {
-          "id"    : 64,
-          "title" : "",
-          "value" : "Core Structure (focal structure - core mobilizers)",
-          
-      },
+          "id": 12,
+          "title": "",
+          "value": "Information Consumer"
+        },
         {
-          "id"    : 65,
-          "title" : "",
-          "value" : "Pheripheral Structure (foot soldiers)"
-      },
+          "id": 13,
+          "title": "",
+          "value": "Information Actor Characterization based on Toxicity Propagation"
+        },
       ]
-  }
+    },
+    {
+      "id": 5,
+      "title": "+2",
+      "value": "Characterizing Network Coordinator Structure",
+      "children": [
+        {
+          "id": 64,
+          "title": "",
+          "value": "Core Structure (focal structure - core mobilizers)",
+
+        },
+        {
+          "id": 65,
+          "title": "",
+          "value": "Pheripheral Structure (foot soldiers)"
+        },
+      ]
+    }
   ]
 };
-
-
 
 
 
@@ -352,41 +482,45 @@ var data = {
 //       content.style.maxHeight = 0;
 //     }
 
-    
+
 //   });
 // }
 
-document.querySelectorAll('.collapsible_button').forEach( collapseButton => {
-  collapseButton.addEventListener("click", function() {
+
+
+document.querySelectorAll('.collapsible_button').forEach(collapseButton => {
+  collapseButton.addEventListener("click", function () {
     const content = collapseButton.nextElementSibling;
     collapseButton.classList.toggle("collapsible_button--active");
 
-    if(content.style.maxHeight) {
-     // content.style.maxHeight = content.scrollHeight + 'px';
-     content.style.maxHeight = null;
+    if (content.style.maxHeight) {
+      // content.style.maxHeight = content.scrollHeight + 'px';
+      content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + 'px';
-    }    
+    }
   });
 }
 
 )
 
-  // Create a new d3.mitchTree object and set the data source
-  var treePlugin = new d3.mitchTree.boxedTree()
+
+
+// Create a new d3.mitchTree object and set the data source
+var treePlugin = new d3.mitchTree.boxedTree()
   .setData(data) // the data variable comes from simple_tree.js
   .setElement(document.getElementById("my_tree"))
-  .setIdAccessor(function(data) {
-      return data.id;
+  .setIdAccessor(function (data) {
+    return data.id;
   })
-  .setChildrenAccessor(function(data) {
-      return data.children;
+  .setChildrenAccessor(function (data) {
+    return data.children;
   })
-  .setBodyDisplayTextAccessor(function(data) {
-      return data.value;
+  .setBodyDisplayTextAccessor(function (data) {
+    return data.value;
   })
-  .setTitleDisplayTextAccessor(function(data) {
-      return data.title;
+  .setTitleDisplayTextAccessor(function (data) {
+    return data.title;
   })
   .initialize();
 
@@ -396,3 +530,6 @@ document.querySelectorAll('.collapsible_button').forEach( collapseButton => {
 //       $('#sidebar').toggleClass('active');
 //   });
 // });
+
+
+

@@ -917,7 +917,7 @@ function parseTypenames(typenames) {
     if (i >= 0) name = t.slice(i + 1), t = t.slice(0, i);
     return {type: t, name: name};
   });
-}//API_KEY_HOST
+}
 
 function onRemove(typename) {
   return function() {
@@ -12584,9 +12584,7 @@ function () {
         // instead of the typical top-to-down tree
         return "translate(" + nodeDataItem.y0 + "," + nodeDataItem.x0 + ")";
       }).on("click", function (data, index, arr) {
-       // window.location.href="pages/characterizingDynamicsOfSocialCampaign.html";
-
-      return _this9._onNodeClick.call(_this9, data, index, arr);
+        return _this9._onNodeClick.call(_this9, data, index, arr);
       });
 
       this._nodeEnter(nodeEnter, nodes); // UPDATE

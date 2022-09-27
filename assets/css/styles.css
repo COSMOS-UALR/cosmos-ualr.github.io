@@ -163,6 +163,8 @@ a.article:hover {
   color: #fff !important;
 }
 
+
+
 /* ---------------------------------------------------
   CONTENT STYLE
 ----------------------------------------------------- */
@@ -189,6 +191,8 @@ a.article:hover {
       display: none;
   }
 }
+
+
 
 /*----------
 To do : Collapsible 
@@ -282,7 +286,91 @@ To do : Collapsible
   padding-top: 4px;
 }
 
+.page-link{
+  background: #fff !important;
+  color: #7386D5 !important;
+  border:none !important;
+  padding:7px;
+}
+
+
+.page-link:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+
+
+.page-link1{
+  background: #fff;
+  color: #7386D5;
+  padding:5px;
+}
+
+
+.page-link1:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.page-link2{
+  color: black;
+  padding:7px;
+  font-size: 0.9em;
+}
+
+
+.page-link2:hover {
+  color: #6d7fcc !important;
+  cursor: pointer;
+}
+
+.page-link3{
+  color: black;
+  padding:7px;
+  font-size: 0.9em;
+}
+
+
+.page-link3:hover {
+  
+  color: #6d7fcc !important;
+  cursor: pointer;
+}
+
+.page-link4{
+  color: black !important;
+  padding:7px !important;
+  font-size: 0.9em !important;
+}
+
+
+.page-link4:hover {
+  
+  color: #6d7fcc !important;
+  cursor: pointer !important;
+}
+
+
+.page-link5{
+  color: black !important;
+  padding:7px !important;
+  font-size: 0.9em !important;
+}
+
+
+.page-link5:hover {
+  
+  color: #6d7fcc !important;
+  cursor: pointer !important;
+}
+
+
 /*
 #sectionHeader h5{
   color:#72bcd4;
 } */
+
+

@@ -91,11 +91,8 @@ $(document).on('click', '.page-link', function () {
       var index = id.slice(4, 8);
       $(".dynamic-contents").empty();
       $(".dynamic-contents").load(`sections/overview/page${index}.html`);
-
     }
   }
-
-
 });
 
 $(document).on('click', '.page-link1', function () {
@@ -106,7 +103,6 @@ $(document).on('click', '.page-link1', function () {
       var index = id.slice(4, 8);
       $(".dynamic-contents").empty();
       $(".dynamic-contents").load(`sections/characterizingTaticsAndImpactAssesment/page${index}.html`);
-
     }
   }
 });
@@ -123,63 +119,6 @@ $(document).on('click', '.page-link6', function () {
      }
    }
  });
-
-
-
-/*$(document).on('click','.page-link', function () {
-  
-  var item_id= $(this).attr('id');
-
-  if(item_id=="item-0-0"){
-    $(".dynamic-contents").empty();
-    $(".dynamic-contents").load("sections/overview/page-0-0.html");
-  }
-
-  if(item_id=="item-0-1"){
-    $(".dynamic-contents").empty();
-    $(".dynamic-contents").load("sections/overview/page-0-1.html");
-  }
-
-  if(item_id=="item-0-2"){
-    $(".dynamic-contents").empty();
-    $(".dynamic-contents").load("sections/overview/page-0-2.html");
-  }
-
-  if(item_id=="item-0-3"){
-    $(".dynamic-contents").empty();
-    $(".dynamic-contents").load("sections/overview/page-0-3.html");
-  }
-     });
-
-
-
-$(document).on('click','.page-link1', function (){
-  
-  var item_id= $(this).attr('id');
-    
-  if(item_id=="item-1-0"){
-        $(".dynamic-contents").empty();
-        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-0.html");
-      }
-    
-  if(item_id=="item-1-1"){
-        $(".dynamic-contents").empty();
-        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-1.html");
-      }
-    
-  if(item_id=="item-1-2"){
-        $(".dynamic-contents").empty();
-        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-2.html");
-      }
-    
-  if(item_id=="item-1-3"){
-        $(".dynamic-contents").empty();
-        $(".dynamic-contents").load("sections/characterizingTaticsAndImpactAssesment/page-1-3.html");
-      }
-         }); */
-
-
-
 
 var data =  {
    "node_name": "0",
@@ -3229,47 +3168,6 @@ var data3 = {
  ]
 };
 
-// var dropdown = document.getElementsByClassName("dropdown-btn");
-// var i;
-
-// for (i = 0; i < dropdown.length; i++) {
-//   dropdown[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var dropdownContent = this.nextElementSibling;
-//     if (dropdownContent.style.display === "block") {
-//       dropdownContent.style.display = "none";
-//     } else {
-//       dropdownContent.style.display = "block";
-//     }
-//   });
-// }
-
-// var sideBar = document.getElementsByClassName("sidebarCollapse");
-// sideBar.addEventListener("click", function() {
-//   sideBar.toggleClass('active');
-
-// });
-
-// var collapseButton = document.getElementsByClassName("collapsible_button");
-// var i;
-
-// for (i = 0; i < collapseButton.length; i++) {
-//   collapseButton[i].addEventListener("click", function() {
-//     var content = this.nextElementSibling;
-//     this.classList.toggle("collapsible_button--active");
-
-//     if(this.classList.toggle("collapsible_button--active")) {
-//       content.style.maxHeight = content.scrollHeight + 'px';
-//     } else {
-//       content.style.maxHeight = 0;
-//     }
-
-
-//   });
-// }
-
-
-
 document.querySelectorAll('.collapsible_button').forEach(collapseButton => {
   collapseButton.addEventListener("click", function () {
     const content = collapseButton.nextElementSibling;
@@ -3285,17 +3183,6 @@ document.querySelectorAll('.collapsible_button').forEach(collapseButton => {
 }
 
 )
-
-
-
-
-
-
-// $(document).ready(function () {
-//   $('#sidebarCollapse').on('click', function () {
-//       $('#sidebar').toggleClass('active');
-//   });
-// });
 
 
 

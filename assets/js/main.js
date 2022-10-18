@@ -441,10 +441,10 @@ var data =  {
                      "name": "0022",
                      "type": "type1",
                      "code": "N0022",
-                     "value": "Long Term/Short Term Gain",
+                     "value": "Long Term/Short Term Game",
                      "title": "v1.0",
                      "link": {
-                        "node_name": "Long Term/Short Term Gain",
+                        "node_name": "Long Term/Short Term Game",
                         "name": "Link Node Name 002",
                         "url": "",
                         "direction": "ASYN"
@@ -732,10 +732,10 @@ var data =  {
                      "name": "0201",
                      "type": "type3",
                      "code": "N0201",
-                     "value": "n Shaped Characteristics",
+                     "value": "s Shaped Characteristics",
                      "title": "v1.0",
                      "link": {
-                        "node_name": "n Shaped Characteristics",
+                        "node_name": "s Shaped Characteristics",
                         "name": "Link Node Name 020",
                         "url": "",
                         "direction": "ASYN"
@@ -887,7 +887,7 @@ var data =  {
                "name": "022",
                "type": "type3",
                "code": "N022",
-               "value": "Information Actors Characterization Based On Toxicity Propaganda",
+               "value": "Characterization Based On Toxicity Propagation",
                "title": "v1.0",
                "link": {
                   "node_name": "Content",
@@ -901,7 +901,7 @@ var data =  {
                      "name": "0220",
                      "type": "type3",
                      "code": "N0220",
-                     "value": "Epidemiological Model based Characterization(STRS model)",
+                     "value": "Epidemiological Model based Characterization (STRS model)",
                      "title": "v1.0",
                      "link": {
                         "node_name": "Epidemiological Model based Characterization",
@@ -994,35 +994,34 @@ var data =  {
                      "name": "0300",
                      "type": "type4",
                      "code": "N0300",
-                     "value": "Core Structure(focal structure-core mobilizers)",
+                     "value": "Core Structure (focal structure-core mobilizers)",
                      "title": "v1.0",
                      "link": {
-                        "node_name": "Core Structure(focal structure-core mobilizers)",
+                        "node_name": "Core Structure (focal structure-core mobilizers)",
                         "name": "Link Node Name 030",
                         "url": "",
                         "direction": "ASYN"
                      },
-                     "children": [
-                        {
-                           "node_name": "03000",
-                           "name": "03000",
-                           "type": "type4",
-                           "code": "N03000",
-                           "value": "Peripheral structure(foot soldiers)",
-                           "title": "v1.0",
-                           "link": {
-                              "node_name": "Peripheral structure(foot soldiers)",
-                              "name": "Link Node Name 030",
-                              "url": "",
-                              "direction": "ASYN"
-                           },
-                           "children": []
-                        }
-                     ]
-                  }
-               ]
-            }
-         ]
+                    "children": []
+                  },
+                  {
+                     "node_name": "0301",
+                     "name": "0301",
+                     "type": "type4",
+                     "code": "N0301",
+                     "value": "Peripheral structure (foot soldiers)",
+                     "title": "v1.0",
+                     "link": {
+                        "node_name": "Peripheral structure (foot soldiers)",
+                        "name": "Link Node Name 030",
+                        "url": "",
+                        "direction": "ASYN"
+                     },
+                     "children": []
+                   }
+                 ]
+              }
+           ]
       },
       {
          "node_name": "04",

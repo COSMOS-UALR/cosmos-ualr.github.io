@@ -565,10 +565,10 @@ var data =  {
                "name": "011",
                "type": "type2",
                "code": "N011",
-               "value": "n function Characterization",
+               "value": "s-function Characterization",
                "title": "v1.0",
                "link": {
-                  "node_name": "n function Characterization",
+                  "node_name": "s-function Characterization",
                   "name": "Link Node Name 01",
                   "url": "",
                   "direction": "ASYN"
@@ -579,10 +579,10 @@ var data =  {
                      "name": "0110",
                      "type": "type2",
                      "code": "N0110",
-                     "value": "Accelerating Phrase",
+                     "value": "Accelerating Phase",
                      "title": "v1.0",
                      "link": {
-                        "node_name": "Accelerating Phrase",
+                        "node_name": "Accelerating Phase",
                         "name": "Link Node Name 011",
                         "url": "",
                         "direction": "ASYN"
@@ -594,10 +594,10 @@ var data =  {
                      "name": "0111",
                      "type": "type2",
                      "code": "N0111",
-                     "value": "Decelerating Phrase",
+                     "value": "Decelerating Phase",
                      "title": "v1.0",
                      "link": {
-                        "node_name": "Decelerating Phrase",
+                        "node_name": "Decelerating Phase",
                         "name": "Link Node Name 011",
                         "url": "",
                         "direction": "ASYN"

@@ -490,10 +490,10 @@ var data =  {
          "name": "01",
          "type": "type2",
          "code": "N01",
-         "value": "Characterizing socioCampaign process dynamics",
+         "value": "Characterizing social campaign process dynamics",
          "title": "v1.0",
          "link": {
-            "node_name": "Characterizing socioCampaign process dynamics",
+            "node_name": "Characterizing social campaign process dynamics",
             "name": "Link Node Name 0",
             "url": "",
             "direction": "ASYN"
@@ -1103,7 +1103,7 @@ var data =  {
                "name": "041",
                "type": "type2",
                "code": "N041",
-               "value": "Time based Characterization",
+               "value": "Time-based Characterization",
                "title": "v1.0",
                "link": {
                   "node_name": "Time based Characterization",
@@ -1224,7 +1224,7 @@ var data =  {
                      "name": "0431",
                      "type": "type4",
                      "code": "N0431",
-                     "value": "Automated(AI) Actor",
+                     "value": "Automated (AI) Actor",
                      "title": "v1.0",
                      "link": {
                         "node_name": "Automated(AI) Actor",
@@ -1702,7 +1702,7 @@ var data2 = {
                "name": "0051",
                "type": "type6",
                "code": "N0051",
-               "value": "Locaton",
+               "value": "Location",
                "title": "v1.0",
                "link": {
                "node_name": "Location",
@@ -1717,10 +1717,10 @@ var data2 = {
                "name": "0052",
                "type": "type6",
                "code": "N0052",
-               "value": "Timestamp(channel,video,comment)",
+               "value": "Timestamp",
                "title": "v1.0",
                "link": {
-               "node_name": "Timestamp(channel,video,comment)",
+               "node_name": "Timestamp",
                "name": "Link Node Name 005",
                "url": "",
                "direction": "ASYN"
@@ -1732,7 +1732,7 @@ var data2 = {
                "name": "0053",
                "type": "type6",
                "code": "N0053",
-               "value": "Category(video,channel)",
+               "value": "Category (video,channel)",
                "title": "v1.0",
                "link": {
                "node_name": "Category(video,channel)",

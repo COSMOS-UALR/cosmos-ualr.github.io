@@ -1,0 +1,107 @@
+<br>
+<!--Artificial Engagement Boosting-->
+<h5>Artificial Engagement Boosting</h5>
+<h6>Definition</h6>
+<p>
+    A tactic that is often deployed by an information actor to gain views, likes, comments, and subscribers through inorganic means, that are often driven by bots provided by services like YouTube Booster (https://youtube-booster.space/). Artificial engagement boosting tactic could generate several thousands of views, likes, comments, and/or subscribers for a channel, that would start placing the video higher in the search results and increase the chances of being recommended to viewers. 
+    <br><br>
+    Artificial engagement boosting services are highly sophisticated, as they boost videos via placing then in playlists, increase views, likes, comments, subscribers, emulate different traffic sources (suggestions, YouTube search, home YouTube page, channel, direct visits and from other sites), generate profiles, farming (warm up) profiles and accounts, watching / skipping ad, monetization clicking, rewind the first seconds of the video, smart rewinds, ability to set watch time, multithreading, proxy support (http / socks: regular, mobile change IP by interval or API), anonymity to ensure maximum security to exclude view drops and bans, highest emulation of human behavior (e.g., moving the mouse over the progress bar, reading description, comments, sometimes opens suggested videos, copies a link, enable pause, highlights text on a page, and much more. In general, everything is like an ordinary user does.), ability to pass PVA when logging into a Google account, solving captcha in Google, support of accounts with 2fa, scheduler, ability to set different settings for individual videos, and ability to increase views without Google accounts.
+
+    <br><br>
+    A few examples of artificial engagement boosting tactics deployed by YouTube channels is shown in Figures 1, 2, and 3. To detect such sophisticated engagement boosting tactics, an advanced machine learning based algorithm is developed that scales well with the amount of data available at YouTube and needed for processing/detecting such behaviors. Using a combination of techniques involving rolling window correlation analysis, anomaly detection, peak detection, rule-based supervised classification and unsupervised clustering, we analyze user engagement statistics of these channels to detect suspicious engagement trends within the channels and assign a score to these periods of suspicion. Figures 1,2, and 3 show engagement profiles of the YouTube channels that have the highest mean suspicion scores according to our model. These figures depict instances of anomalous engagement behaviors in these channels.
+</p>
+
+<!---image here-->
+<p>
+    <br>
+<div>
+    <img src="../assets/images/s1-p6-f1.png" alt=toxic width="100%">
+</div>
+</p>
+<p>
+    <b>Figure 1.</b> The Military TV. The channel shows a sudden spike in views and subscribers. It suddenly gained 11,000 subscribers in a week during April 5 -11, 2022 and consistently gained similar number of subscribers for just a few weeks before returning back to normal.
+</p>
+<p>
+    <br>
+    <img src="../assets/images/s1-p6-f2.png" alt=toxic width="90%">
+</p>
+<p>
+    <br>
+    <b>Figure 2.</b> Armageddon TV. This channel showed a sudden increase in viewership (almost 8 million views) and subscribers at precisely the same time and then began to decline.
+</p>
+
+<p>
+    <img src="../assets/images/s1-p6-f3.png" alt=toxic width="80%">
+</p>
+<p>
+    <b>Figure 3.</b> U.S Military Technology. This channel has spikes of subscribers which seem suspicious when compared with the view count. Moreover, a negative number of views were recorded for the channel that suggests some videos were removed from the channel.
+</p>
+<p>
+    <br>
+    Our model uses six indicators to rank suspicion. These indicators represent the correlation values between pairs of engagement statistics. An example of a suspicious activity is a negative correlation between views and subscribers of a channel over time, which suggests increase in views while there is a decrease in subscribers – a behavior that is very uncommon on YouTube. These indicators are assigned weights indicating their relative importance in detection of suspicious behaviors. Below, is the list of pairs of engagement scores with their relative weights.
+    <br>&#x2022; Views vs Subscribers: 0.35
+    <br>&#x2022; Videos vs Comments: 0.25
+    <br>&#x2022; Subscriber vs Comments: 0.2
+    <br>&#x2022; Views vs Videos: 0.1
+    <br>&#x2022; Views vs Comments: 0.06
+    <br>&#x2022; Subscriber vs Videos: 0.04
+</p>
+<p>
+    <br>
+    While it is helpful to analyze individual channels using the six indicators based on engagement scores (as shown in Figure 4), it is however, an unscalable approach for a large collection of channels. 
+</p>
+<p>
+    <img src="../assets/images/s1-p6-f4.png" alt=toxic width="80%">
+</p>
+<p>
+    <b>Figure 4.</b> Pairwise correlation between engagement scores of CGTN channel showing periods of anomalous behaviors. 
+</p>
+
+<p>
+    We developed a PCA + clustering-based approach to automatically characterize / group channels similar in terms of engagement behaviors (Figure 5a and 5b). This analysis helps in not only identifying suspicious channels (based on color grades) but also detecting groups of channels that deploy similar tactics. All 3 outliers show off the chart inorganic behaviors (5 out of 6 indicators). One America News Network (alt-right news network) being the most inorganic (Figure 5a). Figure 5b shows a method for characterization of YouTube channels based on engagement scores. This analysis helps in not only identifying suspicious channels but also detecting groups of channels that deploy similar tactics. Cluster 1 is mostly news networks (similar engagement profiles). Cluster 2, 3, and 5 show high anomaly scores. These clusters also consist of several misinformation riddled anti-US military news channels, prominent in the Indo-Pacific region. Coordinated inauthentic behavior was identified in a channel syndicate working up an anti-US military discourse in the Indo-pacific region. This was identified using DBSCAN clustering analysis, particularly within members of clusters 2, 3 and 5.
+</p>
+
+<p>
+    through the videos’ titles, description, and transcripts
+</p>
+<p>
+    <br>
+    <img src="../assets/images/s1-p6-f5.png" alt=toxic width="80%">
+</p>
+<p>
+    <b>Figure 5.</b> Detecting suspicious engagement behaviors on a set of YouTube channels and characterization based on engagement scores.
+</p>
+
+<p>
+    <br>
+    To evaluate scalability of the approach, we tested it on a collection of 3,517 YouTube channels posting content relevant to the Indo-Pacific region. Many of these channels are known to post content with false/misleading narratives. These channels have posted tens of thousands of videos and millions of comments. Figure 6a shows identification of channels that deployed artificial engagement boosting tactics through a color gradient (darker color depicts more inorganic engagement behaviors). The channel with highest suspicion score, viz., ‘Breaking News TV’ (suspicion sore 0.72 highlighted in Figure 6a) has been suspended by YouTube citing platform’s terms and conditions (Figure 7). Figure 6b shows a clustering of channels with similar engagement anomaly profiles. A total of 10 clusters were obtained. These clusters range from highly suspicious (inorganic) to non-suspicious (organic) engagement profiles and the members of these clusters, i.e., channels fit those profiles.
+</p>
+<p>
+    <br>
+    <img src="../assets/images/s1-p6-f6.png" alt=toxic width="80%">
+</p>
+<p>
+    <b>Figure 6.</b> Engagement analysis of 3,517 Indo-Pacific Channels. Detecting suspicious engagement behaviors on these YouTube channels and characterization based on engagement scores.
+</p>
+<p>
+    <br>
+    <img src="../assets/images/s1-p6-f7.png" alt=toxic width="80%">
+</p>
+<p>
+    <b>Figure 7.</b> Channel with highest suspicion score (‘Breaking News TV’ (suspicion sore 0.72 highlighted in Figure 6a)) has been suspended by YouTube. 
+
+</p>
+<p>
+    <br><br>
+    <h5>Detection and Impact Assessment</h5>
+</p>
+<p>
+    Table 1. Data Elements and Analytical Methodologies needed to Detect and Assess Artificial Engagement Boosting Tactic.
+    <img src="../assets/images/s1-p6-t1.png" alt=toxic width="80%">
+</p>
+<p>
+    Further Reading
+
+    <br><br>Baris Kirdemir, Oluwaseyi Adeliyi, and Nitin Agarwal. Towards Characterizing Coordinated Inauthentic Behaviors on YouTube. The 2nd Workshop on Reducing Online Misinformation through Credible Information Retrieval (ROMCIR 2022) held with the 44th European Conference on Information Retrieval (ECIR 2022). April 10-14, 2022, Stavanger, Norway.
+
+</p>
